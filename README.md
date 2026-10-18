@@ -14,15 +14,26 @@ GridGuard AI studies whether a scalable machine-learning workflow can prioritize
 
 Each observation pairs an operating scenario with a candidate transmission-line outage. The binary target, `Post_Outage_Violation`, identifies a modeled thermal-limit violation. A learned ranking determines which cases enter a fixed review budget first.
 
-## Why This Project Exists
+### Why This Project Exists
 
 DC power flow and line-outage distribution factors provide controlled known-truth labels. The study uses this testbed to examine ranking, scalable Spark workflows and evaluation policies relevant to more expensive targets such as AC or N-k analysis. It does not demonstrate transfer to those targets or claim that DC/LODF labeling requires machine learning.
 
-## Workflow
+### Workflow
 
 Synthetic scenarios → DC/LODF modeled labels → scenario-grouped split → PySpark ML pipeline → LR/RF/GBT comparison → review-budget evaluation → GridGuard dashboard → GridRail project guide.
 
-## Dataset
+## Tech Stack
+
+| Area | Tools and methods |
+|---|---|
+| Data & ML | Python, PySpark, Spark ML, NumPy |
+| Cloud & Scale | Google Cloud Dataproc, Apache Spark |
+| Modeling | Logistic Regression, Random Forest, Gradient-Boosted Trees |
+| Evaluation | PR-AUC, ROC-AUC, scenario-grouped validation, review-budget analysis, scenario-cluster bootstrap |
+| Frontend & Delivery | HTML, CSS, JavaScript, Cloudflare Pages, Google Forms |
+| Reproducibility & Engineering | Git, GitHub, pytest. Dockerfile provided, container execution not verified. |
+
+## Data and Method
 
 | Property | Canonical 1M dataset |
 |---|---:|
@@ -33,17 +44,17 @@ Synthetic scenarios → DC/LODF modeled labels → scenario-grouped split → Py
 
 The canonical dataset remains private. It is not distributed in this repository. The 50K development and 1M datasets share the same 5,650 operating scenarios, so they are not independent scenario cohorts. Rating calibration may overlap modeled scenarios. See the [data card](docs/DATA_CARD.md).
 
-## Predictors
+### Predictors
 
 The nine predictors are `Total_Demand`, `Renewable_Generation_Pct`, `Hour_of_Day`, `Pre_Outage_Line_Loading`, `Line_Thermal_Rating`, `Edge_Betweenness`, `Degree_From_Bus`, `Degree_To_Bus` and `Line_Outage_Sensitivity`.
 
 `scenario_id`, `outage_line_id`, `islanding_flag`, `random_seed` and `dataset_version` are excluded from the predictive feature vector.
 
-## Leakage Prevention
+### Leakage Prevention
 
 The split assigns distinct scenario IDs to training, validation or test, then joins those memberships back to their outage rows. Scenario overlap across partitions is checked explicitly. Related rows stay together, and identifiers do not enter the model. See [Methods](docs/METHODS.md).
 
-## Models
+### Models
 
 Logistic Regression, Random Forest and Gradient-Boosted Trees are three evaluated near-default Spark model families. They do not constitute an exhaustive model search or equal model-specific tuning budgets.
 
@@ -61,15 +72,20 @@ The separate local 1M validation audit reports GBT PR-AUC of approximately 0.924
 
 RF's fresh Dataproc PR-AUC falls within the 15-run local seed-and-partition range. The study does not isolate partition count as the unique cause. Original local precision of approximately 0.941 and fresh Dataproc precision of approximately 0.878 both fall outside the sensitivity range of approximately 0.890 to 0.937. That study used a different training-data layout. See the [RF reproducibility audit](docs/RF_REPRODUCIBILITY_AUDIT.md).
 
-## Screening Performance
+### Screening Performance
 
 ![Local validation capture compared with the loading baseline and theoretical ceiling](results/figures/local_validation_capture.png)
 
-At a 20% review budget, GBT captured 95.1% of modeled violations versus 78.8% for the strongest tested simple baseline, a gain of 16.3 percentage points.
+**Local 1M validation, pooled ranking**
 
-These are **local 1M validation** results. The strongest tested simple baseline is `Pre_Outage_Line_Loading`. The paired scenario-bootstrap interval for the gain is approximately +15.75 to +16.72 percentage points, based on 1,000 resamples. **Intervals do not correct selection optimism or calibration overlap.** Baseline selection used these validation rows. GBT still missed **875 modeled violations** at the 20% pooled review budget.
+| Review budget | GBT capture | Loading-baseline capture | Gain |
+|---|---:|---:|---:|
+| 10% | 78.9% | 54.3% | +24.6 percentage points |
+| 20% | 95.1% | 78.8% | +16.3 percentage points |
 
-At 10% review, capture was 78.9% for GBT versus 54.3% for loading, a gain of 24.6 percentage points. Pooled ranking and within-scenario review are distinct policies. At 20% within-scenario review, mean recall was 93.80% for GBT versus 79.39% for loading. These estimates describe this synthetic benchmark, not measured engineering time, financial savings or real-grid benefit.
+The strongest tested simple baseline is `Pre_Outage_Line_Loading`. The paired scenario-bootstrap interval for the gain is approximately +15.75 to +16.72 percentage points, based on 1,000 resamples. **Intervals do not correct selection optimism or calibration overlap.** Baseline selection used these validation rows. GBT still missed **875 modeled violations** at the 20% pooled review budget.
+
+Pooled ranking and within-scenario review are distinct policies. At 20% within-scenario review, mean recall was 93.80% for GBT versus 79.39% for loading. These estimates describe this synthetic benchmark, not measured engineering time, financial savings or real-grid benefit.
 
 ## Reproducibility
 
@@ -113,11 +129,7 @@ The study uses synthetic scenarios, simplified DC physics and modeled thermal li
 
 No held-out 1M final-test PR-AUC is currently reported. A separate written approval is required before a single evaluation under the [frozen validation policy](docs/VALIDATION_POLICY_FREEZE.md).
 
-## Tech Stack
-
-Python, PySpark, Spark ML, Google Cloud Dataproc, NumPy, HTML, CSS, JavaScript, Cloudflare Pages, Google Forms, Git and GitHub.
-
-## Repository Structure
+### Repository Structure
 
 ```text
 configs/        External-data configuration and frozen policy
@@ -132,11 +144,11 @@ docs/           Methods, evidence, limitations and attribution
 audit/          Selected public verification evidence
 ```
 
-## Live Demo
+### Live Demo
 
 [Explore GridGuard AI](https://gridguard-ai.pages.dev). The verified production release is V4-R2. V3 is retained privately as the rollback baseline. This repository does not publish deployment ZIPs, raw datasets, trained models, private GridRail knowledge packages or local Git history.
 
-## License
+### License
 
 [MIT](LICENSE) applies to original project code and documentation to the extent owned. Dependencies retain their own licenses. Canonical datasets, MATPOWER case files and restricted course material are not redistributed. See [attribution](docs/ATTRIBUTION.md) and [license/data scope](docs/LICENSE_AND_DATA_POLICY.md).
 
