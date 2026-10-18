@@ -64,7 +64,17 @@
     },
     "internal_markdown_links": "PASS",
     "citation_sources": 16,
-    "verified_doi_records": 10
+    "verified_doi_records": 10,
+    "hosted_ci": {
+      "conclusion": "success",
+      "pytest_passed": 91,
+      "fresh_dependency_install": true,
+      "synthetic_pipeline_smoke": true,
+      "aggregate_report_build": true,
+      "dashboard_build": true,
+      "publication_validation": true,
+      "url": "https://github.com/sileshith/gridguard-ai/actions/runs/39083380157"
+    }
   },
   "external_links": [
     {
@@ -216,7 +226,7 @@
     "dashboard_build": "PASS",
     "served_dashboard_assets_matching_production": 8,
     "privacy_scan_findings": 0,
-    "dependencies": "Existing verified local Python/Java environments were reused. A from-scratch dependency installation, Docker run and hosted GitHub Actions execution were not performed.",
+    "dependencies": "Local clone used existing verified environments. The hosted Ubuntu CI independently installed dependencies and passed synthetic smoke, pytest, report rebuild, dashboard build and publication checks. Docker was not executed.",
     "canonical_data_accessed": false,
     "held_out_test_scored": false
   },
@@ -248,9 +258,10 @@
       "noRestrictedGpt": true
     },
     "description_homepage_and_10_topics": "verified",
-    "hosted_ci": "Automatic workflow in progress at verification",
+    "hosted_ci": "PASS, completed successfully",
     "hosted_ci_url": "https://github.com/sileshith/gridguard-ai/actions/runs/39083380157",
-    "verified_at_utc": "2026-10-18T00:37:35.449264+00:00"
+    "verified_at_utc": "2026-10-18T00:37:35.449264+00:00",
+    "hosted_ci_source_commit": "0b37ce1715aebedcabcc81657673e2d3589f5f30"
   },
   "authenticated_owner": "sileshith"
 }
