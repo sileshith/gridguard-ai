@@ -1,5 +1,5 @@
 {
-  "publication_status": "READY BUT BLOCKED: GitHub CLI has no authenticated account",
+  "publication_status": "PUBLISHED",
   "target": "https://github.com/sileshith/gridguard-ai",
   "privacy": {
     "scan": "scripts/audit_local.py plus allowlist, binary-image visual review and scientific-byte comparison",
@@ -220,5 +220,37 @@
     "canonical_data_accessed": false,
     "held_out_test_scored": false
   },
-  "github_external_verification": "NOT RUN, no repository created or pushed"
+  "github_external_verification": {
+    "repository": "https://github.com/sileshith/gridguard-ai",
+    "visibility": "PUBLIC",
+    "default_branch": "main",
+    "published_release_commit": "0b37ce1715aebedcabcc81657673e2d3589f5f30",
+    "anonymous_access_http": 200,
+    "file_inventory_count": 219,
+    "readme_license_screenshot_bytes": "matched",
+    "readme_render": {
+      "governance": true,
+      "hasReadme": true,
+      "images": [
+        {
+          "alt": "GridGuard AI dashboard preview",
+          "loaded": true,
+          "width": 837.9948120117188
+        },
+        {
+          "alt": "Local validation capture compared with the loading baseline and theoretical ceiling",
+          "loaded": true,
+          "width": 837.9896240234375
+        }
+      ],
+      "limitations": true,
+      "noPrivatePath": true,
+      "noRestrictedGpt": true
+    },
+    "description_homepage_and_10_topics": "verified",
+    "hosted_ci": "Automatic workflow in progress at verification",
+    "hosted_ci_url": "https://github.com/sileshith/gridguard-ai/actions/runs/39083380157",
+    "verified_at_utc": "2026-10-18T00:37:35.449264+00:00"
+  },
+  "authenticated_owner": "sileshith"
 }

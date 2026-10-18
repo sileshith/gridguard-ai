@@ -14,10 +14,10 @@ POLICY FROZEN / FINAL TEST UNEVALUATED.
 
 91 Python tests passed on synthetic fixtures and aggregate artifacts. 383 dashboard/browser checks and 8 README-render checks passed. An isolated fresh-kernel report build executed 25 cells without errors or training. All original scientific source/result files and canonical notebook/report bytes remain unchanged. Existing license and third-party exclusions are preserved.
 
-All 21 external Markdown destinations were checked. Four DOI publisher pages restricted automated access, and their DOI registrations were verified through Crossref. Two MATPOWER destinations returned HTTP 406 to the HTTP client but were independently verified through the web reader at the same official URLs. No broken internal Markdown link was found. The GitHub target requires authenticated account verification before creation or publication.
+All 21 external Markdown destinations were checked. Four DOI publisher pages restricted automated access, and their DOI registrations were verified through Crossref. Two MATPOWER destinations returned HTTP 406 to the HTTP client but were independently verified through the web reader at the same official URLs. No broken internal Markdown link was found. The intended owner sileshith was authenticated before repository creation and publication.
 
 ## Fresh-clone verification
 
 An independent Git clone passed all 91 synthetic/unit tests, rebuilt the 25-cell aggregate report without errors and passed the report publication checks. The documented local server returned all eight dashboard assets byte for byte identical to V4-R2. A second privacy scan found no issues after the report build. Existing verified Python/Java environments were reused. Fresh dependency installation, Docker execution and hosted GitHub Actions remain unverified.
 
-GitHub publication remains blocked until CLI authentication confirms the intended owner sileshith. No remote repository has been created or pushed by this release preparation. Public GitHub rendering and repository metadata checks remain pending.
+The clean release was published to https://github.com/sileshith/gridguard-ai after authentication confirmed sileshith. The repository is PUBLIC with main as default branch. Anonymous access, the exact 219-file inventory, README/license/screenshot bytes and actual GitHub README rendering were verified. The homepage and ten relevant topics were set. The automatically triggered hosted CI run was still in progress at this verification. No private original Git history or unrelated local work was pushed.
