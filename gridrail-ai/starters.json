@@ -1,0 +1,10 @@
+[
+  "Explain GridGuard AI in plain English.",
+  "How did the project prevent data leakage?",
+  "What changed between the 50K development set and the 1M validation set?",
+  "How did the three models compare, and how far does that result generalize?",
+  "How does the screening budget trade off workload and violation capture?",
+  "What are the project\u2019s main limitations?",
+  "How would this system fit into a real engineering workflow?",
+  "What would be needed before production deployment?"
+]

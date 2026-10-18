@@ -1,0 +1,6 @@
+data_env: GRIDGUARD_SMALL_DATA
+data_filename: cis415_grid_small_50000.csv
+output: results/local/small
+seed: 4152026
+expected_rows: 50000
+master: local[2]

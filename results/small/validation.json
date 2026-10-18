@@ -1,0 +1,10 @@
+{
+  "rows": 50000,
+  "positive_count": 5732,
+  "prevalence": 0.11464,
+  "unique_scenarios": 5650,
+  "versions": [
+    "ieee118_dc_lodf_v1"
+  ],
+  "sha256": "0647a744810f26691d2f46ee176a2d167c1beb1ce88a076be69a69b445226ec9"
+}

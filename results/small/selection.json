@@ -1,0 +1,6 @@
+{
+  "model": "gbt_tuned",
+  "threshold": 0.4,
+  "rule": "train-only grouped PR-AUC search; validation PR-AUC compared to baseline; validation max F1 threshold",
+  "test_evaluated": false
+}

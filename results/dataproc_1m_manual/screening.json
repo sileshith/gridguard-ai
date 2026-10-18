@@ -1,0 +1,22 @@
+[
+  {
+    "budget": 0.2,
+    "score": "risk_score",
+    "number_screened": 30621,
+    "percent_screened": 20.0,
+    "violations_captured": 16812,
+    "capture_rate": 0.9477422628107559,
+    "violations_missed": 927,
+    "workload_reduction": 0.8
+  },
+  {
+    "budget": 0.2,
+    "score": "Pre_Outage_Line_Loading",
+    "number_screened": 30621,
+    "percent_screened": 20.0,
+    "violations_captured": 13974,
+    "capture_rate": 0.7877557923220023,
+    "violations_missed": 3765,
+    "workload_reduction": 0.8
+  }
+]

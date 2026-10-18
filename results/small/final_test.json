@@ -1,0 +1,37 @@
+{
+  "evidence_state": "ENHANCED",
+  "selection": {
+    "model": "gbt_tuned",
+    "threshold": 0.4,
+    "rule": "train-only grouped PR-AUC search; validation PR-AUC compared to baseline; validation max F1 threshold",
+    "test_evaluated": false
+  },
+  "ranking": {
+    "TP": 692,
+    "FP": 65,
+    "FN": 154,
+    "TN": 6611,
+    "precision": 0.9141347424042272,
+    "recall": 0.817966903073286,
+    "F1": 0.8633811603243917,
+    "threshold": 0.5,
+    "percent_flagged": 10.063812815740494,
+    "workload_reduction": 0.8993618718425951,
+    "PR_AUC": 0.9318114434516891,
+    "ROC_AUC": 0.9847500733016324
+  },
+  "operating": {
+    "TP": 715,
+    "FP": 101,
+    "FN": 131,
+    "TN": 6575,
+    "precision": 0.8762254901960784,
+    "recall": 0.8451536643026005,
+    "F1": 0.8604091456077015,
+    "threshold": 0.4,
+    "percent_flagged": 10.848178675884073,
+    "workload_reduction": 0.8915182132411592
+  },
+  "timestamp": "2026-10-17T00:02:30.098603+00:00",
+  "caveat": "Historical test prevalence was summarized; current test membership may differ. No claim of a pristine historical population."
+}

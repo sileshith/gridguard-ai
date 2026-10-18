@@ -1,0 +1,6 @@
+# Preserve archived evidence bytes across platforms.
+results/** -text
+reports/** -text
+notebooks/** -text
+# Matplotlib SVG path whitespace is generated and intentionally retained.
+results/figures/*.svg -whitespace

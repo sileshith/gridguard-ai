@@ -1,0 +1,82 @@
+{
+  "evidence_state": "REPRODUCED + MANUALLY VERIFIED",
+  "verification_source": "User-supplied manual run evidence, October2026",
+  "raw_cloud_artifacts_locally_reviewed": false,
+  "raw_cloud_artifact_names_reported": [
+    "gridguard_dataproc_manifest.json",
+    "gridguard_cluster_config.json",
+    "gridguard_job_metadata.json"
+  ],
+  "artifact_access_note": "User reports raw artifacts preserved privately and validated manually. Assistant used the supplied aggregate handoff, not authenticated GCS access or local raw manifests.",
+  "integrity": {
+    "rows": 1000000,
+    "positive_count": 117193,
+    "unique_scenarios": 5650,
+    "prevalence": 0.117193,
+    "data_sha256": "66d3e763848cb7fa07867dd83587b1125b53366df6dd1af0dd54b7739e0c8aa6",
+    "dataset_version": "ieee118_dc_lodf_v1"
+  },
+  "seed": 4152026,
+  "split_summary": {
+    "train": {
+      "rows": 696268,
+      "scenarios": 3934
+    },
+    "validation": {
+      "rows": 153105,
+      "scenarios": 865
+    },
+    "test": {
+      "rows": 150627,
+      "scenarios": 851
+    }
+  },
+  "pairwise_scenario_overlaps": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "test_evaluated": false,
+  "environment": {
+    "spark": "4.1.2",
+    "python": "3.12.13",
+    "java": "21.0.12.1",
+    "spark.master": "yarn",
+    "spark.submit.deployMode": "client",
+    "spark.driver.memory": "4g",
+    "spark.driver.maxResultSize": "128m",
+    "spark.executor.memory": "3g",
+    "spark.executor.memoryOverhead": "1g",
+    "spark.executor.cores": 2,
+    "spark.executor.instances": 2,
+    "spark.dynamicAllocation.enabled": false,
+    "spark.sql.shuffle.partitions": 8
+  },
+  "runtime": {
+    "seconds_through_manifest_write_approx": 152,
+    "per_model_fit_validation_save_seconds_approx": {
+      "lr": 33.56,
+      "rf": 28.94,
+      "gbt": 43.47
+    },
+    "scope": "User-supplied measured pipeline timing for this configuration, not cluster lifetime, full job wall time, billing duration or a benchmark claim."
+  },
+  "cluster_deleted": "User-confirmed PASS; no authenticated deletion check by assistant",
+  "billing": {
+    "status": "PENDING BILLING FINALIZATION",
+    "actual_run_cost_usd": null,
+    "note": "Immediate user-reported review showed no posted charge. Final run cost unavailable at review time. Private credit/account details excluded."
+  },
+  "coverage": {
+    "screening_budgets_available": [
+      0.2
+    ],
+    "thresholds_available": [
+      0.4,
+      0.5
+    ],
+    "complete_screening_curve_available": false,
+    "fresh_effective_parameter_maps_locally_available": false
+  },
+  "claims_boundary": "No utility transfer, causal scaling gain, zero-cost claim or full physics-data regeneration. Original generator remains missing."
+}

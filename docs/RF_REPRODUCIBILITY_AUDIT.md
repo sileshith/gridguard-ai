@@ -1,0 +1,5 @@
+# RF reproducibility audit
+
+The fresh Dataproc RF PR-AUC falls within the range observed across 15 local seed-and-partition experiments. This is consistent with Random Forest stochastic variability, but the experiment does not isolate partition count as the unique cause. Fixed-threshold precision was not reproduced by the sensitivity study. The original local precision (0.941) and fresh Dataproc precision (0.878) both fall outside the 15-run local range of approximately 0.890 to 0.937. The RF sensitivity study repartitioned and sorted the training input differently from the original local pipeline, so it samples a neighboring layout family rather than reproducing the original reference run exactly. Local PR-AUC ranged from 0.8612 to 0.8777. Historical 1M results with a different split remain context rather than the direct reproduction target.
+
+The study varies five seeds across 2, 4 and 8 input partitions on the fixed local split. Matching counts alone does not establish per-scenario cloud membership. See the sanitized RF aggregate in results/review_validation_1m/rf_partition_review.json.

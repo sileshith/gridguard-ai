@@ -1,0 +1,10 @@
+| budget | score | number_screened | percent_screened | violations_captured | capture_rate | violations_missed | workload_reduction |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 0.010000 | risk_score | 77 | 1.006404 | 76 | 0.087156 | 796 | 0.989936 |
+| 0.050000 | risk_score | 383 | 5.005882 | 381 | 0.436927 | 491 | 0.949941 |
+| 0.100000 | risk_score | 766 | 10.011763 | 680 | 0.779817 | 192 | 0.899882 |
+| 0.200000 | risk_score | 1531 | 20.010456 | 830 | 0.951835 | 42 | 0.799895 |
+| 0.010000 | Pre_Outage_Line_Loading | 77 | 1.006404 | 74 | 0.084862 | 798 | 0.989936 |
+| 0.050000 | Pre_Outage_Line_Loading | 383 | 5.005882 | 282 | 0.323394 | 590 | 0.949941 |
+| 0.100000 | Pre_Outage_Line_Loading | 766 | 10.011763 | 466 | 0.534404 | 406 | 0.899882 |
+| 0.200000 | Pre_Outage_Line_Loading | 1531 | 20.010456 | 693 | 0.794725 | 179 | 0.799895 |

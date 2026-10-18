@@ -1,0 +1,83 @@
+{
+  "lr": {
+    "PR_AUC": {
+      "historical": 0.8477,
+      "reproduced": 0.8476665962320831,
+      "absolute_difference": 3.3403767916939664e-05
+    },
+    "ROC_AUC": {
+      "historical": 0.9696,
+      "reproduced": 0.9696369048505183,
+      "absolute_difference": 3.6904850518326704e-05
+    },
+    "precision": {
+      "historical": 0.8253,
+      "reproduced": 0.8253094910591472,
+      "absolute_difference": 9.491059147159753e-06
+    },
+    "recall": {
+      "historical": 0.6881,
+      "reproduced": 0.6880733944954128,
+      "absolute_difference": 2.660550458721822e-05
+    },
+    "F1": {
+      "historical": 0.7505,
+      "reproduced": 0.75046904315197,
+      "absolute_difference": 3.095684802989496e-05
+    }
+  },
+  "rf": {
+    "PR_AUC": {
+      "historical": 0.8588,
+      "reproduced": 0.8588163762290436,
+      "absolute_difference": 1.637622904360203e-05
+    },
+    "ROC_AUC": {
+      "historical": 0.963,
+      "reproduced": 0.9629578190066198,
+      "absolute_difference": 4.218099338015868e-05
+    },
+    "precision": {
+      "historical": 0.906,
+      "reproduced": 0.9060402684563759,
+      "absolute_difference": 4.026845637583598e-05
+    },
+    "recall": {
+      "historical": 0.6193,
+      "reproduced": 0.6192660550458715,
+      "absolute_difference": 3.394495412845089e-05
+    },
+    "F1": {
+      "historical": 0.7357,
+      "reproduced": 0.7356948228882835,
+      "absolute_difference": 5.1771117165477776e-06
+    }
+  },
+  "gbt": {
+    "PR_AUC": {
+      "historical": 0.9142,
+      "reproduced": 0.9141648087359029,
+      "absolute_difference": 3.519126409712303e-05
+    },
+    "ROC_AUC": {
+      "historical": 0.981,
+      "reproduced": 0.9810032940367649,
+      "absolute_difference": 3.2940367649114677e-06
+    },
+    "precision": {
+      "historical": 0.8921,
+      "reproduced": 0.8921052631578947,
+      "absolute_difference": 5.263157894730419e-06
+    },
+    "recall": {
+      "historical": 0.7775,
+      "reproduced": 0.7775229357798165,
+      "absolute_difference": 2.2935779816490864e-05
+    },
+    "F1": {
+      "historical": 0.8309,
+      "reproduced": 0.8308823529411764,
+      "absolute_difference": 1.7647058823566653e-05
+    }
+  }
+}

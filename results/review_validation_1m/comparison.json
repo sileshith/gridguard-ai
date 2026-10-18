@@ -1,0 +1,288 @@
+{
+  "scope": "Local 1M validation, synthetic IEEE 118-bus DC benchmark",
+  "source_sha256": "213b26cb532d1f93c8eda80d22ee2bfc3db5180f4316a16e44081441eea9fabc",
+  "provenance": {
+    "data_sha256": "66d3e763848cb7fa07867dd83587b1125b53366df6dd1af0dd54b7739e0c8aa6",
+    "validation": {
+      "rows": 153105,
+      "positive_count": 17739,
+      "unique_scenarios": 865,
+      "prevalence": 0.11586166356422063
+    },
+    "split_seed": 4152026,
+    "split_method": "sorted scenario IDs, randomSplit 70/30 then 50/50",
+    "spark": "4.0.1",
+    "python": "3.11.5",
+    "java": "21.0.1",
+    "model_content_sha256": "90930b358852484762cf6b63ee41f3028bb19c03fb7b3a5ed80cf58908e7429a",
+    "test_evaluated": false
+  },
+  "comparisons": [
+    {
+      "metric": "PR-AUC",
+      "baseline": 0.6389854426173088,
+      "GBT": 0.9246573863320393,
+      "absolute_gain": 0.2856719437147305,
+      "relative_gain": 0.44707112973436025,
+      "unit": "PR-AUC"
+    },
+    {
+      "metric": "Capture at 10% review",
+      "baseline": 0.5433226224702633,
+      "GBT": 0.7892214893736964,
+      "absolute_gain": 0.2458988669034331,
+      "relative_gain": 0.4525835235526042,
+      "unit": "proportion"
+    },
+    {
+      "metric": "Capture at 20% review",
+      "baseline": 0.7877557923220023,
+      "GBT": 0.950673656914144,
+      "absolute_gain": 0.16291786459214164,
+      "relative_gain": 0.20681265206812657,
+      "unit": "proportion"
+    },
+    {
+      "metric": "Mean per-scenario recall at 10%",
+      "baseline": 0.5416408690692615,
+      "GBT": 0.8026761712085309,
+      "absolute_gain": 0.2610353021392694,
+      "relative_gain": 0.4819342797891603,
+      "unit": "proportion"
+    },
+    {
+      "metric": "Mean per-scenario recall at 20%",
+      "baseline": 0.7938763412828349,
+      "GBT": 0.9380100595082785,
+      "absolute_gain": 0.14413371822544363,
+      "relative_gain": 0.181556888308998,
+      "unit": "proportion"
+    },
+    {
+      "metric": "Scenarios with at least one miss at 10%",
+      "baseline": 0.9942196531791907,
+      "GBT": 0.7040462427745665,
+      "absolute_gain": -0.2901734104046242,
+      "relative_gain": -0.291860465116279,
+      "unit": "proportion"
+    },
+    {
+      "metric": "Scenarios with at least one miss at 20%",
+      "baseline": 0.9271676300578034,
+      "GBT": 0.44046242774566474,
+      "absolute_gain": -0.4867052023121387,
+      "relative_gain": -0.5249376558603491,
+      "unit": "proportion"
+    },
+    {
+      "metric": "Share of nominal ceiling at 10%",
+      "baseline": 0.629502628914797,
+      "GBT": 0.9144051467946834,
+      "absolute_gain": 0.2849025178798864,
+      "relative_gain": 0.4525835235526044,
+      "unit": "proportion"
+    }
+  ],
+  "rankings": [
+    {
+      "score": "Pre_Outage_Line_Loading",
+      "PR_AUC": 0.6389854426173088,
+      "screening": [
+        {
+          "budget": 0.01,
+          "score": "Pre_Outage_Line_Loading",
+          "number_screened": 1532,
+          "percent_screened": 1.0006204892067536,
+          "violations_captured": 1406,
+          "capture_rate": 0.0792603867185298,
+          "violations_missed": 16333,
+          "workload_reduction": 0.9899937951079325,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 0.0863098258075427,
+          "share_of_best": 0.918324025995232,
+          "best_possible_realized": 0.08636338012289306,
+          "share_of_best_realized": 0.9177545691906005
+        },
+        {
+          "budget": 0.05,
+          "score": "Pre_Outage_Line_Loading",
+          "number_screened": 7656,
+          "percent_screened": 5.0004898599000684,
+          "violations_captured": 5744,
+          "capture_rate": 0.3238063024973223,
+          "violations_missed": 11995,
+          "workload_reduction": 0.9499951014009993,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 0.43154912903771353,
+          "share_of_best": 0.7503347375983802,
+          "best_possible_realized": 0.4315914087603585,
+          "share_of_best_realized": 0.7502612330198537
+        },
+        {
+          "budget": 0.1,
+          "score": "Pre_Outage_Line_Loading",
+          "number_screened": 15311,
+          "percent_screened": 10.000326573266712,
+          "violations_captured": 9638,
+          "capture_rate": 0.5433226224702633,
+          "violations_missed": 8101,
+          "workload_reduction": 0.8999967342673328,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 0.8630982580754271,
+          "share_of_best": 0.629502628914797,
+          "best_possible_realized": 0.8631264445571903,
+          "share_of_best_realized": 0.6294820717131475
+        },
+        {
+          "budget": 0.2,
+          "score": "Pre_Outage_Line_Loading",
+          "number_screened": 30621,
+          "percent_screened": 20.0,
+          "violations_captured": 13974,
+          "capture_rate": 0.7877557923220023,
+          "violations_missed": 3765,
+          "workload_reduction": 0.8,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 1.0,
+          "share_of_best": 0.7877557923220023,
+          "best_possible_realized": 1.0,
+          "share_of_best_realized": 0.7877557923220023
+        }
+      ]
+    },
+    {
+      "score": "loading_times_sensitivity",
+      "PR_AUC": 0.5292471835978398,
+      "screening": [
+        {
+          "budget": 0.01,
+          "score": "loading_times_sensitivity",
+          "number_screened": 1532,
+          "percent_screened": 1.0006204892067536,
+          "violations_captured": 1363,
+          "capture_rate": 0.07683634928688202,
+          "violations_missed": 16376,
+          "workload_reduction": 0.9899937951079325,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 0.0863098258075427,
+          "share_of_best": 0.8902387250579668,
+          "best_possible_realized": 0.08636338012289306,
+          "share_of_best_realized": 0.8896866840731071
+        },
+        {
+          "budget": 0.05,
+          "score": "loading_times_sensitivity",
+          "number_screened": 7656,
+          "percent_screened": 5.0004898599000684,
+          "violations_captured": 5065,
+          "capture_rate": 0.28552906026269803,
+          "violations_missed": 12674,
+          "workload_reduction": 0.9499951014009993,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 0.43154912903771353,
+          "share_of_best": 0.6616374383592959,
+          "best_possible_realized": 0.4315914087603585,
+          "share_of_best_realized": 0.6615726227795194
+        },
+        {
+          "budget": 0.1,
+          "score": "loading_times_sensitivity",
+          "number_screened": 15311,
+          "percent_screened": 10.000326573266712,
+          "violations_captured": 7896,
+          "capture_rate": 0.44512092000676473,
+          "violations_missed": 9843,
+          "workload_reduction": 0.8999967342673328,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 0.8630982580754271,
+          "share_of_best": 0.5157245027922014,
+          "best_possible_realized": 0.8631264445571903,
+          "share_of_best_realized": 0.5157076611586441
+        },
+        {
+          "budget": 0.2,
+          "score": "loading_times_sensitivity",
+          "number_screened": 30621,
+          "percent_screened": 20.0,
+          "violations_captured": 11890,
+          "capture_rate": 0.670274536332375,
+          "violations_missed": 5849,
+          "workload_reduction": 0.8,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 1.0,
+          "share_of_best": 0.670274536332375,
+          "best_possible_realized": 1.0,
+          "share_of_best_realized": 0.670274536332375
+        }
+      ]
+    },
+    {
+      "score": "risk_score",
+      "PR_AUC": 0.9246573863320393,
+      "screening": [
+        {
+          "budget": 0.01,
+          "score": "risk_score",
+          "number_screened": 1532,
+          "percent_screened": 1.0006204892067536,
+          "violations_captured": 1532,
+          "capture_rate": 0.08636338012289306,
+          "violations_missed": 16207,
+          "workload_reduction": 0.9899937951079325,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 0.0863098258075427,
+          "share_of_best": 1.0006204892067534,
+          "best_possible_realized": 0.08636338012289306,
+          "share_of_best_realized": 1.0
+        },
+        {
+          "budget": 0.05,
+          "score": "risk_score",
+          "number_screened": 7656,
+          "percent_screened": 5.0004898599000684,
+          "violations_captured": 7644,
+          "capture_rate": 0.4309149331980382,
+          "violations_missed": 10095,
+          "workload_reduction": 0.9499951014009993,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 0.43154912903771353,
+          "share_of_best": 0.9985304202997941,
+          "best_possible_realized": 0.4315914087603585,
+          "share_of_best_realized": 0.9984326018808778
+        },
+        {
+          "budget": 0.1,
+          "score": "risk_score",
+          "number_screened": 15311,
+          "percent_screened": 10.000326573266712,
+          "violations_captured": 14000,
+          "capture_rate": 0.7892214893736964,
+          "violations_missed": 3739,
+          "workload_reduction": 0.8999967342673328,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 0.8630982580754271,
+          "share_of_best": 0.9144051467946834,
+          "best_possible_realized": 0.8631264445571903,
+          "share_of_best_realized": 0.9143752857422769
+        },
+        {
+          "budget": 0.2,
+          "score": "risk_score",
+          "number_screened": 30621,
+          "percent_screened": 20.0,
+          "violations_captured": 16864,
+          "capture_rate": 0.950673656914144,
+          "violations_missed": 875,
+          "workload_reduction": 0.8,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 1.0,
+          "share_of_best": 0.950673656914144,
+          "best_possible_realized": 1.0,
+          "share_of_best_realized": 0.950673656914144
+        }
+      ]
+    }
+  ],
+  "selection_note": "Best feature and heuristic selected on this validation sample. Their estimates and gaps are descriptive and subject to selection optimism.",
+  "test_evaluated": false
+}

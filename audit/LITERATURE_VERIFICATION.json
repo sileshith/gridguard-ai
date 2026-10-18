@@ -1,0 +1,104 @@
+{
+  "verified_date": "2026-10-16",
+  "source_count": 16,
+  "method": "Primary publisher/author/official documentation web research; metadata exceptions recorded, no full papers redistributed.",
+  "sources": [
+    {
+      "key": "breiman2001",
+      "verification_url": "https://doi.org/10.1023/A:1010933404324",
+      "doi": "10.1023/A:1010933404324",
+      "note": ""
+    },
+    {
+      "key": "friedman2001",
+      "verification_url": "https://projecteuclid.org/journals/annals-of-statistics/volume-29/issue-5/Greedy-function-approximation-A-gradient-boosting-machine/10.1214/aos/1013203451.full",
+      "doi": "10.1214/aos/1013203451",
+      "note": "Publisher iframe inaccessible to text extraction; DOI/title/venue cross-checked against registry-linked record. No performance claim transferred."
+    },
+    {
+      "key": "gebru2021",
+      "verification_url": "https://arxiv.org/abs/1803.09010",
+      "doi": "10.1145/3458723",
+      "note": "Author manuscript confirms authors and CACM publication; publisher access returned403. Journal pagination and DOI metadata confirmed by Crossref registration."
+    },
+    {
+      "key": "hidalgo2019",
+      "verification_url": "https://orbit.dtu.dk/en/publications/deep-learning-for-power-system-security-assessment/",
+      "doi": "10.1109/PTC.2019.8810906",
+      "note": "DTU repository formats family name as Arteaga; author manuscript uses Hidalgo-Arteaga. Manuscript spelling retained consistently."
+    },
+    {
+      "key": "kaufman2012",
+      "verification_url": "https://cris.tau.ac.il/en/publications/leakage-in-data-mining-formulation-detection-and-avoidance/",
+      "doi": "10.1145/2382577.2382579",
+      "note": ""
+    },
+    {
+      "key": "matpowerCase",
+      "verification_url": "https://matpower.org/docs/ref/matpower6.0/case118.html",
+      "doi": "",
+      "note": "Versioned software documentation; publication date/DOI absent. Retrieved October16,2026 (local date)."
+    },
+    {
+      "key": "matpowerLODF",
+      "verification_url": "https://matpower.org/documentation/ref-manual/legacy/functions/makeLODF.html",
+      "doi": "",
+      "note": "Documentation has no DOI or publication date. Retrieved October16,2026 (local date)."
+    },
+    {
+      "key": "mitchell2019",
+      "verification_url": "https://arxiv.org/abs/1810.03993",
+      "doi": "10.1145/3287560.3287596",
+      "note": ""
+    },
+    {
+      "key": "nercTPL",
+      "verification_url": "https://www.nerc.com/globalassets/standards/reliability-standards/tpl/tpl-001-5.1.pdf",
+      "doi": "",
+      "note": "Specific archived standard consulted, not a claim about currently applicable regulation; publication date and DOI not verified."
+    },
+    {
+      "key": "roberts2017",
+      "verification_url": "https://florianhartig.github.io/publications/roberts2017cross/",
+      "doi": "10.1111/ecog.02881",
+      "note": ""
+    },
+    {
+      "key": "saito2015",
+      "verification_url": "https://journals.plos.org/plosone/article/citation?id=10.1371%2Fjournal.pone.0118432",
+      "doi": "10.1371/journal.pone.0118432",
+      "note": ""
+    },
+    {
+      "key": "sparkPipelines",
+      "verification_url": "https://spark.apache.org/docs/3.5.8/ml-pipeline.html",
+      "doi": "",
+      "note": "Versioned conceptual documentation, not the measured runtime (Spark4.0.1); publication date/DOI absent. Retrieved October16,2026."
+    },
+    {
+      "key": "sparkPandas",
+      "verification_url": "https://spark.apache.org/docs/3.5.8/api/python/reference/pyspark.sql/api/pyspark.sql.DataFrame.toPandas.html",
+      "doi": "",
+      "note": "No DOI/date; versioned documentation consulted. Retrieved October16,2026."
+    },
+    {
+      "key": "thams2020",
+      "verification_url": "https://orbit.dtu.dk/en/publications/efficient-database-generation-for-data-driven-security-assessment/",
+      "doi": "10.1109/TPWRS.2018.2890769",
+      "note": ""
+    },
+    {
+      "key": "zaharia2012",
+      "verification_url": "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/zaharia",
+      "doi": "",
+      "note": "No DOI supplied by publisher. Author listing says McCauley; publisher BibTeX spells McCauly. Author-list spelling retained."
+    },
+    {
+      "key": "zimmerman2011",
+      "verification_url": "https://matpower.org/MATPOWER-paper.pdf",
+      "doi": "10.1109/TPWRS.2010.2051168",
+      "note": ""
+    }
+  ],
+  "doi_registry_records": 10
+}

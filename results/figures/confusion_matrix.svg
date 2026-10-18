@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="446.4pt" height="338.4pt" viewBox="0 0 446.4 338.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-17T10:00:40.587819</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>GridGuard AI</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 338.4 
+L 446.4 338.4 
+L 446.4 0 
+L 0 0 
+z
+" style="fill: #fbfaf7"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 122.984 273.216 
+L 366.8 273.216 
+L 366.8 29.4 
+L 122.984 29.4 
+z
+" style="fill: #fbfaf7"/>
+   </g>
+   <g clip-path="url(#pe1fa5cb564)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAh4AAAIeCAYAAAD0wwZKAAAJQUlEQVR4nO3YMQoCMQBFwVW28wTewvvfRbBe2EYQCws9QyyeGGb6kJDq8Q+3/fFeAAbtz5c/A4Ydx48AAHxHeAAAGeEBAGSEBwCQER4AQEZ4AAAZ4QEAZIQHAJARHgBARngAABnhAQBkhAcAkBEeAEBGeAAAGeEBAGSEBwCQER4AQEZ4AAAZ4QEAZIQHAJARHgBARngAABnhAQBkhAcAkBEeAEBGeAAAGeEBAGSEBwCQER4AQEZ4AAAZ4QEAZIQHAJARHgBARngAABnhAQBkhAcAkBEeAEBGeAAAGeEBAGSEBwCQER4AQEZ4AAAZ4QEAZIQHAJARHgBARngAABnhAQBkhAcAkBEeAEBGeAAAGeEBAGSEBwCQER4AQEZ4AAAZ4QEAZIQHAJARHgBARngAABnhAQBkhAcAkBEeAEBGeAAAGeEBAGSEBwCQER4AQEZ4AAAZ4QEAZIQHAJARHgBARngAABnhAQBkhAcAkBEeAEBGeAAAGeEBAGSEBwCQER4AQEZ4AAAZ4QEAZIQHAJARHgBARngAABnhAQBkhAcAkBEeAEBGeAAAGeEBAGSEBwCQER4AQEZ4AAAZ4QEAZIQHAJARHgBARngAABnhAQBkhAcAkBEeAEBGeAAAGeEBAGSEBwCQER4AQEZ4AAAZ4QEAZIQHAJARHgBARngAABnhAQBkhAcAkBEeAEBGeAAAGeEBAGSEBwCQER4AQEZ4AAAZ4QEAZIQHAJARHgBARngAABnhAQBkhAcAkBEeAEBGeAAAGeEBAGSEBwCQER4AQEZ4AAAZ4QEAZIQHAJARHgBARngAABnhAQBkhAcAkBEeAEBGeAAAGeEBAAgPAGA+Fg8AICM8AICM8AAAMsIDAMgIDwAgIzwAgIzwAAAywgMAyAgPACAjPACAjPAAADLCAwDICA8AICM8AICM8AAAMsIDAMgIDwAgIzwAgIzwAAAywgMAyAgPACAjPACAjPAAADLCAwDICA8AICM8AICM8AAAMsIDAMgIDwAgIzwAgIzwAAAywgMAyAgPACAjPACAjPAAADLCAwDICA8AICM8AICM8AAAMsIDAMgIDwAgIzwAgIzwAAAywgMAyAgPACAjPACAjPAAADLCAwDICA8AICM8AICM8AAAMsIDAMgIDwAgIzwAgIzwAAAywgMAyAgPACAjPACAjPAAADLCAwDICA8AICM8AICM8AAAMsIDAMgIDwAgIzwAgIzwAAAywgMAyAgPACAjPACAjPAAADLCAwDICA8AICM8AICM8AAAMsIDAMgIDwAgIzwAgIzwAAAywgMAyAgPACAjPACAjPAAADLCAwDICA8AICM8AICM8AAAMsIDAMgIDwAgIzwAgIzwAAAywgMAyAgPACAjPACAjPAAADLCAwDICA8AICM8AICM8AAAMsIDAMgIDwAgIzwAgIzwAAAywgMAyAgPACAjPACAjPAAADLCAwDICA8AICM8AICM8AAAMsIDAMgIDwAgIzwAgIzwAAAywgMAyAgPACAjPACAjPAAADLCAwDICA8AICM8AICM8AAAMsIDAMgIDwAgIzwAgIzwAAAywgMAyAgPACAjPACAjPAAADLCAwDICA8AICM8AIDMet3u3W3ANC7n06+fAPwhiwcAkBEeAEBGeAAAGeEBAGSEBwCQER4AQEZ4AAAZ4QEAZIQHAJARHgBARngAABnhAQBkhAcAkBEeAEBGeAAAwgMAmI/FAwDICA8AICM8AICM8AAAMsIDAMgIDwAgIzwAgIzwAAAywgMAyAgPACAjPACAjPAAADLCAwDICA8AICM8AICM8AAAMsIDAMgIDwAgIzwAgIzwAAAywgMAyAgPACAjPACAjPAAADLCAwDICA8AICM8AICM8AAAMsIDAMgIDwAgIzwAgIzwAAAywgMAyAgPACAjPACAjPAAADLCAwDICA8AICM8AICM8AAAMsIDAMgIDwAgIzwAgIzwAAAywgMAyAgPACAjPACAjPAAADLCAwDICA8AICM8AICM8AAAMsIDAMgIDwAgIzwAgIzwAAAywgMAyAgPACAjPACAjPAAADLCAwDICA8AICM8AICM8AAAMsIDAMgIDwAgIzwAgIzwAAAywgMAyAgPACAjPACAjPAAADLCAwDICA8AICM8AICM8AAAMsIDAMgIDwAgIzwAgIzwAAAywgMAyAgPACAjPACAjPAAADLCAwDICA8AICM8AICM8AAAMsIDAMgIDwAgIzwAgIzwAAAywgMAyAgPACAjPACAjPAAADLCAwDICA8AICM8AICM8AAAMsIDAMgIDwAgIzwAgIzwAAAywgMAyAgPACAjPACAjPAAADLCAwDICA8AICM8AICM8AAAMsIDAMgIDwAgIzwAgIzwAAAywgMAyAgPACAjPACAjPAAADLCAwDICA8AICM8AICM8AAAMsIDAMgIDwAgIzwAgIzwAAAywgMAyAgPACAjPACAjPAAADLCAwDICA8AICM8AADhAQDMx+IBAGSEBwCQER4AQEZ4AAAZ4QEAZIQHAJARHgBARngAABnhAQBkhAcAkBEeAEBGeAAAGeEBAGSEBwCQER4AQEZ4AAAZ4QEAZIQHAJARHgBARngAABnhAQBkhAcAkBEeAEBGeAAAGeEBAGSEBwCQER4AQEZ4AAAZ4QEAZIQHAJARHgBARngAABnhAQBkhAcAkBEeAEBGeAAAGeEBAGSEBwCQER4AQEZ4AAAZ4QEAZIQHAJARHgBARngAABnhAQBkhAcAkBEeAEBGeAAAGeEBAGSEBwCQER4AQEZ4AAAZ4QEAZIQHAJARHgBARngAABnhAQBkhAcAkBEeAEBGeAAAGeEBAGSEBwCQER4AQEZ4AAAZ4QEAZIQHAJARHgBARngAABnhAQBkhAcAkBEeAEBGeAAAGeEBAGSEBwCQER4AQEZ4AAAZ4QEAZIQHAJARHgBARngAABnhAQBkhAcAkBEeAEBGeAAAGeEBAGSEBwCQER4AQEZ4AAAZ4QEAZIQHAJARHgBARngAABnhAQBkhAcAkBEeAEBGeAAAGeEBAGSEBwCQER4AQEZ4AAAZ4QEAZIQHAJARHgBARngAABnhAQBkhAcAkBEeAEBGeAAAGeEBAGSEBwCQER4AQEZ4AAAZ4QEAZIQHAJARHgBARngAABnhAQBkhAcAsFQ+m+0N6z0lwSgAAAAASUVORK5CYII=" id="imageaacfdc319c" transform="scale(1 -1) translate(0 -243.9)" x="122.85" y="-29.25" width="243.9" height="243.9"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m91e2c51497" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m91e2c51497" x="183.938" y="273.216" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="183.938" y="288.574281" transform="rotate(-0 183.938 288.574281)">No violation</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m91e2c51497" x="305.846" y="273.216" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="305.846" y="288.574281" transform="rotate(-0 305.846 288.574281)">Violation</text>
+     </g>
+    </g>
+    <g id="text_3">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="244.892" y="303.575141" transform="rotate(-0 244.892 303.575141)">Predicted class</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_3">
+      <defs>
+       <path id="m077f05d996" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m077f05d996" x="122.984" y="90.354" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end" x="115.984" y="94.533141" transform="rotate(-0 115.984 94.533141)">No violation</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m077f05d996" x="122.984" y="212.262" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end" x="115.984" y="216.441141" transform="rotate(-0 115.984 216.441141)">Violation</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="43.721266" y="151.308" transform="rotate(-90 43.721266 151.308)">Modeled class</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 122.984 273.216 
+L 122.984 29.4 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 122.984 273.216 
+L 366.8 273.216 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 16px; font-family: 'DejaVu Sans'; fill: #0f172a" transform="translate(173.06675 84.908688)">TN</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Sans'; fill: #0f172a" transform="translate(161.0355 104.111813)">6,575</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 16px; font-family: 'DejaVu Sans'; fill: #0f172a" transform="translate(296.421 84.908688)">FP</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Sans'; fill: #0f172a" transform="translate(290.576 104.111813)">101</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 16px; font-family: 'DejaVu Sans'; fill: #0f172a" transform="translate(173.35175 206.816688)">FN</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Sans'; fill: #0f172a" transform="translate(168.668 226.019813)">131</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 16px; font-family: 'DejaVu Sans'; fill: #0f172a" transform="translate(296.136 206.816688)">TP</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Sans'; fill: #0f172a" transform="translate(290.576 226.019813)">715</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle" x="244.892" y="23.4" transform="rotate(-0 244.892 23.4)">Frozen 50K test at threshold 0.4</text>
+   </g>
+  </g>
+  <g id="text_12">
+   <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #475569" x="8.928" y="333.324" transform="rotate(-0 8.928 333.324)">Prior enhanced test receipt: 7,522 rows. Historical test prevalence was inspected; not a pristine holdout.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe1fa5cb564">
+   <rect x="122.984" y="29.4" width="243.816" height="243.816"/>
+  </clipPath>
+ </defs>
+</svg>

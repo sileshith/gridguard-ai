@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="792pt" height="374.4pt" viewBox="0 0 792 374.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-17T10:00:41.390479</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>GridGuard AI</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 374.4 
+L 792 374.4 
+L 792 0 
+L 0 0 
+z
+" style="fill: #fbfaf7"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <g id="patch_2">
+     <path d="M 315.681094 92.421728 
+L 476.318906 92.421728 
+Q 481.818906 92.421728 481.818906 86.921728 
+L 481.818906 60.515712 
+Q 481.818906 55.015712 476.318906 55.015712 
+L 315.681094 55.015712 
+Q 310.181094 55.015712 310.181094 60.515712 
+L 310.181094 86.921728 
+Q 310.181094 92.421728 315.681094 92.421728 
+z
+" style="fill: #f2e7dc; stroke: #64748b; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(334.758359 69.975068)">Private canonical data</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(315.681094 83.178075)">Scenario + candidate outage</text>
+   </g>
+   <g id="patch_3">
+    <path d="M 396 93.876821 
+Q 396 99.445008 396 103.895161 
+" style="fill: none; stroke: #64748b; stroke-linecap: round"/>
+    <path d="M 398.2 99.495161 
+L 396 103.895161 
+L 393.8 99.495161 
+" style="fill: none; stroke: #64748b; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <g id="patch_4">
+     <path d="M 321.92875 146.899808 
+L 470.07125 146.899808 
+Q 475.57125 146.899808 475.57125 141.399808 
+L 475.57125 114.993792 
+Q 475.57125 109.493792 470.07125 109.493792 
+L 321.92875 109.493792 
+Q 316.42875 109.493792 316.42875 114.993792 
+L 316.42875 141.399808 
+Q 316.42875 146.899808 321.92875 146.899808 
+z
+" style="fill: #f2e7dc; stroke: #64748b; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(344.018125 124.453148)">Validate and group</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(321.92875 137.656155)">Nine pre-outage predictors</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 396 148.354901 
+Q 396 153.923088 396 158.373241 
+" style="fill: none; stroke: #64748b; stroke-linecap: round"/>
+    <path d="M 398.2 153.973241 
+L 396 158.373241 
+L 393.8 153.973241 
+" style="fill: none; stroke: #64748b; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <g id="patch_6">
+     <path d="M 322.53375 201.377888 
+L 469.46625 201.377888 
+Q 474.96625 201.377888 474.96625 195.877888 
+L 474.96625 169.471872 
+Q 474.96625 163.971872 469.46625 163.971872 
+L 322.53375 163.971872 
+Q 317.03375 163.971872 317.03375 169.471872 
+L 317.03375 195.877888 
+Q 317.03375 201.377888 322.53375 201.377888 
+z
+" style="fill: #e2eff6; stroke: #64748b; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(347.073203 178.931228)">Spark ML pipeline</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(322.53375 192.134235)">Score and rank candidates</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 396 202.832981 
+Q 396 208.401168 396 212.851321 
+" style="fill: none; stroke: #64748b; stroke-linecap: round"/>
+    <path d="M 398.2 208.451321 
+L 396 212.851321 
+L 393.8 208.451321 
+" style="fill: none; stroke: #64748b; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <g id="patch_8">
+     <path d="M 318.327109 255.855968 
+L 473.672891 255.855968 
+Q 479.172891 255.855968 479.172891 250.355968 
+L 479.172891 223.949952 
+Q 479.172891 218.449952 473.672891 218.449952 
+L 318.327109 218.449952 
+Q 312.827109 218.449952 312.827109 223.949952 
+L 312.827109 250.355968 
+Q 312.827109 255.855968 318.327109 255.855968 
+z
+" style="fill: #f2e7dc; stroke: #64748b; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(347.336172 233.409308)">Screening budget</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(318.327109 246.612315)">Detailed engineering review</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 396 257.311061 
+Q 396 262.879248 396 267.329401 
+" style="fill: none; stroke: #64748b; stroke-linecap: round"/>
+    <path d="M 398.2 262.929401 
+L 396 267.329401 
+L 393.8 262.929401 
+" style="fill: none; stroke: #64748b; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <g id="patch_10">
+     <path d="M 319.256953 310.334048 
+L 472.743047 310.334048 
+Q 478.243047 310.334048 478.243047 304.834048 
+L 478.243047 278.428032 
+Q 478.243047 272.928032 472.743047 272.928032 
+L 319.256953 272.928032 
+Q 313.756953 272.928032 313.756953 278.428032 
+L 313.756953 304.834048 
+Q 313.756953 310.334048 319.256953 310.334048 
+z
+" style="fill: #f2e7dc; stroke: #64748b; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(346.829141 287.887388)">Public aggregates</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(319.256953 301.090395)">Dashboard + GridRail guide</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start" x="27.2448" y="332.4896" transform="rotate(-0 27.2448 332.4896)">Implemented local pipeline; operational review and live hosting remain proposed/manual.</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle" x="396" y="23.4" transform="rotate(-0 396 23.4)">GridGuard AI: private-data screening, public evidence</text>
+   </g>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #475569" x="15.84" y="368.784" transform="rotate(-0 15.84 368.784)">Conceptual project architecture. No utility topology or private records. GridRail receives documentation only.</text>
+  </g>
+ </g>
+</svg>

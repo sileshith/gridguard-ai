@@ -1,0 +1,6 @@
+{
+  "model": "gbt",
+  "threshold": 0.5,
+  "rule": "maximum validation F1; ties prefer lower threshold",
+  "test_evaluated": false
+}

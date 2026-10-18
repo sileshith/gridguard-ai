@@ -1,0 +1,82 @@
+[
+  {
+    "budget": 0.01,
+    "score": "risk_score",
+    "number_screened": 1532,
+    "percent_screened": 1.0006204892067536,
+    "violations_captured": 1532,
+    "capture_rate": 0.08636338012289306,
+    "violations_missed": 16207,
+    "workload_reduction": 0.9899937951079325
+  },
+  {
+    "budget": 0.05,
+    "score": "risk_score",
+    "number_screened": 7656,
+    "percent_screened": 5.0004898599000684,
+    "violations_captured": 7644,
+    "capture_rate": 0.4309149331980382,
+    "violations_missed": 10095,
+    "workload_reduction": 0.9499951014009993
+  },
+  {
+    "budget": 0.1,
+    "score": "risk_score",
+    "number_screened": 15311,
+    "percent_screened": 10.000326573266712,
+    "violations_captured": 14000,
+    "capture_rate": 0.7892214893736964,
+    "violations_missed": 3739,
+    "workload_reduction": 0.8999967342673328
+  },
+  {
+    "budget": 0.2,
+    "score": "risk_score",
+    "number_screened": 30621,
+    "percent_screened": 20.0,
+    "violations_captured": 16864,
+    "capture_rate": 0.950673656914144,
+    "violations_missed": 875,
+    "workload_reduction": 0.8
+  },
+  {
+    "budget": 0.01,
+    "score": "Pre_Outage_Line_Loading",
+    "number_screened": 1532,
+    "percent_screened": 1.0006204892067536,
+    "violations_captured": 1406,
+    "capture_rate": 0.0792603867185298,
+    "violations_missed": 16333,
+    "workload_reduction": 0.9899937951079325
+  },
+  {
+    "budget": 0.05,
+    "score": "Pre_Outage_Line_Loading",
+    "number_screened": 7656,
+    "percent_screened": 5.0004898599000684,
+    "violations_captured": 5744,
+    "capture_rate": 0.3238063024973223,
+    "violations_missed": 11995,
+    "workload_reduction": 0.9499951014009993
+  },
+  {
+    "budget": 0.1,
+    "score": "Pre_Outage_Line_Loading",
+    "number_screened": 15311,
+    "percent_screened": 10.000326573266712,
+    "violations_captured": 9638,
+    "capture_rate": 0.5433226224702633,
+    "violations_missed": 8101,
+    "workload_reduction": 0.8999967342673328
+  },
+  {
+    "budget": 0.2,
+    "score": "Pre_Outage_Line_Loading",
+    "number_screened": 30621,
+    "percent_screened": 20.0,
+    "violations_captured": 13974,
+    "capture_rate": 0.7877557923220023,
+    "violations_missed": 3765,
+    "workload_reduction": 0.8
+  }
+]

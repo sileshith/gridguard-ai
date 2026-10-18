@@ -1,0 +1,14 @@
+# PROPOSED; not submitted. Resolve account identifiers and approve cost first.
+region: us-west1
+master_machine_type: n4-standard-4
+worker_machine_type: n4-standard-2
+num_workers: 2
+driver_memory: 4g
+boot_disk_type: hyperdisk-balanced
+boot_disk_size_gb: 100
+image_version: 3.0.2-debian13
+maximum_age: 60m
+maximum_idle: 15m
+expected_duration: 15-60 minutes including provisioning; estimate only
+service_fee_estimate_usd_per_hour: 0.08
+# Compute Engine, disks, network and storage are ADDITIONAL; no total quote.

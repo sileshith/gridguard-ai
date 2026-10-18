@@ -1,0 +1,85 @@
+{
+  "status": "POLICY_FROZEN",
+  "date": "2026-10-17",
+  "created_at": "2026-10-17T16:56:50.835214+00:00",
+  "code_commit": "68bdae2261f78777829c38a804b06f9e28b4416e",
+  "model_family": "GBT",
+  "model_content_sha256": "90930b358852484762cf6b63ee41f3028bb19c03fb7b3a5ed80cf58908e7429a",
+  "features": [
+    "Total_Demand",
+    "Renewable_Generation_Pct",
+    "Hour_of_Day",
+    "Pre_Outage_Line_Loading",
+    "Line_Thermal_Rating",
+    "Edge_Betweenness",
+    "Degree_From_Bus",
+    "Degree_To_Bus",
+    "Line_Outage_Sensitivity"
+  ],
+  "baseline": "Pre_Outage_Line_Loading",
+  "split_seed": 4152026,
+  "validation_population": {
+    "rows": 153105,
+    "positive_count": 17739,
+    "unique_scenarios": 865,
+    "prevalence": 0.11586166356422063
+  },
+  "data_sha256": "66d3e763848cb7fa07867dd83587b1125b53366df6dd1af0dd54b7739e0c8aa6",
+  "config_sha256": "540c7dd8e9270f356f37c7a12d2fc9da1d2e76664aa489d83942ad4acc2b40bd",
+  "primary_policy": "pooled_top_20_percent",
+  "secondary_policy": "within_scenario_top_20_percent",
+  "budgets": [
+    0.1,
+    0.2
+  ],
+  "ranking_direction": "descending",
+  "pooled_ties": [
+    "scenario_id",
+    "outage_line_id"
+  ],
+  "scenario_ties": [
+    "outage_line_id"
+  ],
+  "rounding": "ceil(number of eligible cases * budget)",
+  "zero_positive_policy": "Exclude from mean and median recall. Report miss share for all and positive scenarios separately.",
+  "threshold": null,
+  "metrics": [
+    "PR_AUC",
+    "ROC_AUC",
+    "pooled_capture_10",
+    "pooled_capture_20",
+    "baseline_capture_10",
+    "baseline_capture_20",
+    "gain_capture_10",
+    "gain_capture_20",
+    "mean_scenario_recall_10",
+    "mean_scenario_recall_20",
+    "scenario_miss_share_10",
+    "scenario_miss_share_20"
+  ],
+  "ranking_metric_definition": "Spark BinaryClassificationEvaluator rawPrediction, areaUnderPR and secondary areaUnderROC, numBins=1000",
+  "governance_rule": "After this freeze, no feature, model, baseline, ranking policy, threshold policy or evaluation metric may be changed based on final-test results.",
+  "authorization": "Freeze authorized by the current instruction. No final-test execution authorized. Separate policy-specific written approval required.",
+  "source_sha256": {
+    "src/gridguard/config.py": "14340b8faa0c862f37939c7ea5895e896bd80e96205fdae10bb82efbcab5c776",
+    "src/gridguard/splitting.py": "823480811361e6ae2668e1cad5538a9df8e09fad31164221031bde608c1d51b3",
+    "src/gridguard/models.py": "b08e63b35aca9b1b07239d4d9d24e2684b95a5a5c1182383fe5d90eebc1fd1d1",
+    "src/gridguard/review_runtime.py": "6fd0e8ae31ef8012f1a48dff08bebc10c9f211a0c46e95d318bf724ca63363bf",
+    "src/gridguard/scoring.py": "72de1d673b7762e747f9afd9433c8a52e3cf80e3a96f72d56be951574f2c59e8",
+    "src/gridguard/evaluation.py": "52dbbc06055803dd596c1c620e1d3c9aade44adaae8278a383e92ad55f69c735",
+    "src/gridguard/policy.py": "7608966e9dd508c702ee34dd20dc53dd249bf62222276dfe7875693d529d349d",
+    "src/gridguard/__init__.py": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+    "src/gridguard/features.py": "0adaaec8bf7d9ac956eb72b84738145a8016e60d9bd720faa2f3c6b1242e7b11",
+    "src/gridguard/screening.py": "3298b4721d23776a665d0902b78ef43486f3f5f4d75af684d9764e17f6d434e7",
+    "src/gridguard/bootstrap_review.py": "dcc1c561014aaae1ae7494bb6ee3256ebf904397ddd9981370a037c928e34757",
+    "src/gridguard/pipeline.py": "cf97d64ad8d05a7e436585ce50b11984c2fea66d20c3d8e0907ccc3425da56af",
+    "src/gridguard/tuning.py": "f4c8c5091a85b5c0d48f73ee4481a11c9866c6712855eebab55be44401597dac",
+    "src/gridguard/review_analysis.py": "d009546c01ed4b603853532c0de4b43a74fc6d974ce80d9f5216b6954227119c",
+    "src/gridguard/artifacts.py": "ce5ab4d06c8c618a5c7db2ce325ca4a8225da63ae09b7330f17ad007df1447e3",
+    "src/gridguard/reporting.py": "56543073263800c6178b76d841920120af52c7f1e97a95c7cd4a39d99e8f0340",
+    "src/gridguard/validation.py": "edd2f20d0e74c300d5e638f7c24e8c67046805dee2b8cbd137be8a479a0136f7",
+    "scripts/final_test.py": "cd2f6f336703ffd11eb183492c819837599b809b35366010fae986e659d902d8",
+    "configs/large.yaml": "540c7dd8e9270f356f37c7a12d2fc9da1d2e76664aa489d83942ad4acc2b40bd"
+  },
+  "test_evaluated": false
+}

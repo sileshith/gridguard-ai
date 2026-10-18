@@ -1,0 +1,964 @@
+[
+  {
+    "key": "breiman2001",
+    "status": "verified DOI registration metadata",
+    "doi": "10.1023/a:1010933404324",
+    "title": [
+      "Random Forests"
+    ],
+    "authors": [
+      {
+        "given": "Leo",
+        "family": "Breiman",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "Machine Learning"
+    ],
+    "volume": "45",
+    "issue": "1",
+    "pages": "5-32",
+    "published": {
+      "date-parts": [
+        [
+          2001,
+          10
+        ]
+      ]
+    },
+    "publisher": "Springer Science and Business Media LLC",
+    "url": "https://doi.org/10.1023/a:1010933404324"
+  },
+  {
+    "key": "friedman2001",
+    "status": "verified DOI registration metadata",
+    "doi": "10.1214/aos/1013203451",
+    "title": [
+      "Greedy function approximation: A gradient boosting machine."
+    ],
+    "authors": [
+      {
+        "given": "Jerome H.",
+        "family": "Friedman",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "The Annals of Statistics"
+    ],
+    "volume": "29",
+    "issue": "5",
+    "pages": "1189-1232",
+    "published": {
+      "date-parts": [
+        [
+          2001,
+          10,
+          1
+        ]
+      ]
+    },
+    "publisher": "Institute of Mathematical Statistics",
+    "url": "https://doi.org/10.1214/aos/1013203451"
+  },
+  {
+    "key": "gebru2021",
+    "status": "verified DOI registration metadata",
+    "doi": "10.1145/3458723",
+    "title": [
+      "Datasheets for datasets"
+    ],
+    "authors": [
+      {
+        "given": "Timnit",
+        "family": "Gebru",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "DAIR Institute, Palo Alto, CA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jamie",
+        "family": "Morgenstern",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Washington, Seattle, WA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Briana",
+        "family": "Vecchione",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Cornell University, Ithaca, NY"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jennifer Wortman",
+        "family": "Vaughan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Microsoft Research, New York, NY"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hanna",
+        "family": "Wallach",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Microsoft Research, New York, NY"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hal Daum\u00e9",
+        "family": "III",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Maryland, College Park, MD"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kate",
+        "family": "Crawford",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "USC Annenberg, CA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "Communications of the ACM"
+    ],
+    "volume": "64",
+    "issue": "12",
+    "pages": "86-92",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          19
+        ]
+      ]
+    },
+    "publisher": "Association for Computing Machinery (ACM)",
+    "url": "https://doi.org/10.1145/3458723"
+  },
+  {
+    "key": "hidalgo2019",
+    "status": "verified DOI registration metadata",
+    "doi": "10.1109/ptc.2019.8810906",
+    "title": [
+      "Deep Learning for Power System Security Assessment"
+    ],
+    "authors": [
+      {
+        "given": "Jose-Maria Hidalgo",
+        "family": "Arteaga",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fiodar",
+        "family": "Hancharou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Florian",
+        "family": "Thams",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Spyros",
+        "family": "Chatzivasileiadis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "2019 IEEE Milan PowerTech"
+    ],
+    "volume": null,
+    "issue": null,
+    "pages": "1-6",
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          6
+        ]
+      ]
+    },
+    "publisher": "IEEE",
+    "url": "https://doi.org/10.1109/ptc.2019.8810906"
+  },
+  {
+    "key": "kaufman2012",
+    "status": "verified DOI registration metadata",
+    "doi": "10.1145/2382577.2382579",
+    "title": [
+      "Leakage in data mining"
+    ],
+    "authors": [
+      {
+        "given": "Shachar",
+        "family": "Kaufman",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Tel Aviv University, Israel"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Saharon",
+        "family": "Rosset",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tel Aviv University, Israel"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Claudia",
+        "family": "Perlich",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "m6d"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ori",
+        "family": "Stitelman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "m6d"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "ACM Transactions on Knowledge Discovery from Data"
+    ],
+    "volume": "6",
+    "issue": "4",
+    "pages": "1-21",
+    "published": {
+      "date-parts": [
+        [
+          2012,
+          12
+        ]
+      ]
+    },
+    "publisher": "Association for Computing Machinery (ACM)",
+    "url": "https://doi.org/10.1145/2382577.2382579"
+  },
+  {
+    "key": "mitchell2019",
+    "status": "verified DOI registration metadata",
+    "doi": "10.1145/3287560.3287596",
+    "title": [
+      "Model Cards for Model Reporting"
+    ],
+    "authors": [
+      {
+        "given": "Margaret",
+        "family": "Mitchell",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Simone",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrew",
+        "family": "Zaldivar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Parker",
+        "family": "Barnes",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lucy",
+        "family": "Vasserman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ben",
+        "family": "Hutchinson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Elena",
+        "family": "Spitzer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Inioluwa Deborah",
+        "family": "Raji",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Timnit",
+        "family": "Gebru",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "Proceedings of the Conference on Fairness, Accountability, and Transparency"
+    ],
+    "volume": null,
+    "issue": null,
+    "pages": "220-229",
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          1,
+          29
+        ]
+      ]
+    },
+    "publisher": "ACM",
+    "url": "https://doi.org/10.1145/3287560.3287596"
+  },
+  {
+    "key": "roberts2017",
+    "status": "verified DOI registration metadata",
+    "doi": "10.1111/ecog.02881",
+    "title": [
+      "Cross\u2010validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure"
+    ],
+    "authors": [
+      {
+        "given": "David R.",
+        "family": "Roberts",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Volker",
+        "family": "Bahn",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biological Sciences Wright State Univ. Dayton OH USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Simone",
+        "family": "Ciuti",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mark S.",
+        "family": "Boyce",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biological Sciences Univ. of Alberta Edmonton AB Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jane",
+        "family": "Elith",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gurutzeta",
+        "family": "Guillera\u2010Arroita",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Severin",
+        "family": "Hauenstein",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jos\u00e9 J.",
+        "family": "Lahoz\u2010Monfort",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Boris",
+        "family": "Schr\u00f6der",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Inst. of Geoecology, Div. of Landscape Ecology and Environmental Systems Analysis, Technische Univ. Braunschweig, Braunschweig, Germany, and: Berlin\u2010Brandenburg Inst. of Advanced Biodiversity Research (BBIB) Berlin Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wilfried",
+        "family": "Thuiller",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Lab. d\u2019\u00c9cologie Alpine, Univ. Joseph Fourier Grenoble France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David I.",
+        "family": "Warton",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Mathematics and Statistics and Evolution and Ecology Research Centre, The Univ. of New South Wales Sydney Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Brendan A.",
+        "family": "Wintle",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Florian",
+        "family": "Hartig",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          },
+          {
+            "name": "Theoretical Ecology, Univ. of Regensburg Regensburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carsten F.",
+        "family": "Dormann",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "Ecography"
+    ],
+    "volume": "40",
+    "issue": "8",
+    "pages": "913-929",
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          3
+        ]
+      ]
+    },
+    "publisher": "Wiley",
+    "url": "https://doi.org/10.1111/ecog.02881"
+  },
+  {
+    "key": "saito2015",
+    "status": "verified DOI registration metadata",
+    "doi": "10.1371/journal.pone.0118432",
+    "title": [
+      "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets"
+    ],
+    "authors": [
+      {
+        "given": "Takaya",
+        "family": "Saito",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Marc",
+        "family": "Rehmsmeier",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "PLOS ONE"
+    ],
+    "volume": "10",
+    "issue": "3",
+    "pages": "e0118432",
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          3,
+          4
+        ]
+      ]
+    },
+    "publisher": "Public Library of Science (PLoS)",
+    "url": "https://doi.org/10.1371/journal.pone.0118432"
+  },
+  {
+    "key": "thams2020",
+    "status": "verified DOI registration metadata",
+    "doi": "10.1109/tpwrs.2018.2890769",
+    "title": [
+      "Efficient Database Generation for Data-Driven Security Assessment of Power Systems"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7652-8694",
+        "authenticated-orcid": false,
+        "given": "Florian",
+        "family": "Thams",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6101-6001",
+        "authenticated-orcid": false,
+        "given": "Andreas",
+        "family": "Venzke",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert",
+        "family": "Eriksson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4698-8694",
+        "authenticated-orcid": false,
+        "given": "Spyros",
+        "family": "Chatzivasileiadis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "IEEE Transactions on Power Systems"
+    ],
+    "volume": "35",
+    "issue": "1",
+    "pages": "30-41",
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          1
+        ]
+      ]
+    },
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/tpwrs.2018.2890769"
+  },
+  {
+    "key": "zimmerman2011",
+    "status": "verified DOI registration metadata",
+    "doi": "10.1109/tpwrs.2010.2051168",
+    "title": [
+      "MATPOWER: Steady-State Operations, Planning, and Analysis Tools for Power Systems Research and Education"
+    ],
+    "authors": [
+      {
+        "given": "Ray Daniel",
+        "family": "Zimmerman",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carlos Edmundo",
+        "family": "Murillo-Sanchez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert John",
+        "family": "Thomas",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "IEEE Transactions on Power Systems"
+    ],
+    "volume": "26",
+    "issue": "1",
+    "pages": "12-19",
+    "published": {
+      "date-parts": [
+        [
+          2011,
+          2
+        ]
+      ]
+    },
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/tpwrs.2010.2051168"
+  }
+]

@@ -1,0 +1,450 @@
+{
+  "provenance": {
+    "data_sha256": "66d3e763848cb7fa07867dd83587b1125b53366df6dd1af0dd54b7739e0c8aa6",
+    "validation": {
+      "rows": 153105,
+      "positive_count": 17739,
+      "unique_scenarios": 865,
+      "prevalence": 0.11586166356422063
+    },
+    "split_seed": 4152026,
+    "split_method": "sorted scenario IDs, randomSplit 70/30 then 50/50",
+    "spark": "4.0.1",
+    "python": "3.11.5",
+    "java": "21.0.1",
+    "model_content_sha256": "90930b358852484762cf6b63ee41f3028bb19c03fb7b3a5ed80cf58908e7429a",
+    "test_evaluated": false
+  },
+  "validation": {
+    "rows": 153105,
+    "positives": 17739,
+    "scenarios": 865
+  },
+  "eda": {
+    "scenario_structure": {
+      "scenario_count": 865,
+      "min_outages": 177,
+      "max_outages": 177,
+      "mean_outages": 177.0,
+      "outage_quartiles": [
+        177.0,
+        177.0,
+        177.0
+      ],
+      "positive_quartiles": [
+        13.0,
+        17.0,
+        25.0
+      ],
+      "share_scenarios_without_positives": 0.0
+    },
+    "class_feature_summaries": [
+      {
+        "Post_Outage_Violation": 0,
+        "rows": 135366,
+        "Total_Demand_mean": 3759.778801794757,
+        "Total_Demand_std": 424.8627602963842,
+        "Total_Demand_min": 2769.111619,
+        "Total_Demand_max": 5019.607996,
+        "Renewable_Generation_Pct_mean": 18.44010649318259,
+        "Renewable_Generation_Pct_std": 10.92761465741715,
+        "Renewable_Generation_Pct_min": 5.0,
+        "Renewable_Generation_Pct_max": 45.105986,
+        "Hour_of_Day_mean": 11.503804500391531,
+        "Hour_of_Day_std": 6.9057053450520645,
+        "Hour_of_Day_min": 0,
+        "Hour_of_Day_max": 23,
+        "Pre_Outage_Line_Loading_mean": 28.235379558870026,
+        "Pre_Outage_Line_Loading_std": 19.183564292194706,
+        "Pre_Outage_Line_Loading_min": 0.000183,
+        "Pre_Outage_Line_Loading_max": 98.476324,
+        "Line_Thermal_Rating_mean": 62.83983789175366,
+        "Line_Thermal_Rating_std": 21.167032734331688,
+        "Line_Thermal_Rating_min": 55.0,
+        "Line_Thermal_Rating_max": 441.821245,
+        "Edge_Betweenness_mean": 0.034622068414522485,
+        "Edge_Betweenness_std": 0.04268678236242009,
+        "Edge_Betweenness_min": 0.000579,
+        "Edge_Betweenness_max": 0.257444,
+        "Degree_From_Bus_mean": 4.001965042920674,
+        "Degree_From_Bus_std": 1.8884761563247145,
+        "Degree_From_Bus_min": 2,
+        "Degree_From_Bus_max": 9,
+        "Degree_To_Bus_mean": 3.9719427330348833,
+        "Degree_To_Bus_std": 1.9438155247431343,
+        "Degree_To_Bus_min": 2,
+        "Degree_To_Bus_max": 9,
+        "Line_Outage_Sensitivity_mean": 0.8234375514752051,
+        "Line_Outage_Sensitivity_std": 0.21721022226054232,
+        "Line_Outage_Sensitivity_min": 0.265902,
+        "Line_Outage_Sensitivity_max": 1.0
+      },
+      {
+        "Post_Outage_Violation": 1,
+        "rows": 17739,
+        "Total_Demand_mean": 3970.408021346975,
+        "Total_Demand_std": 441.6064914433482,
+        "Total_Demand_min": 2769.111619,
+        "Total_Demand_max": 5019.607996,
+        "Renewable_Generation_Pct_mean": 19.800192377755266,
+        "Renewable_Generation_Pct_std": 11.86253066852813,
+        "Renewable_Generation_Pct_min": 5.0,
+        "Renewable_Generation_Pct_max": 45.105986,
+        "Hour_of_Day_mean": 13.152263374485596,
+        "Hour_of_Day_std": 6.367344994847992,
+        "Hour_of_Day_min": 0,
+        "Hour_of_Day_max": 23,
+        "Pre_Outage_Line_Loading_mean": 63.539202746659974,
+        "Pre_Outage_Line_Loading_std": 12.543886382447825,
+        "Pre_Outage_Line_Loading_min": 8.376903,
+        "Pre_Outage_Line_Loading_max": 99.664461,
+        "Line_Thermal_Rating_mean": 140.2004773276406,
+        "Line_Thermal_Rating_std": 88.64929436689876,
+        "Line_Thermal_Rating_min": 55.0,
+        "Line_Thermal_Rating_max": 441.821245,
+        "Edge_Betweenness_mean": 0.053264449067028326,
+        "Edge_Betweenness_std": 0.05943495804672961,
+        "Edge_Betweenness_min": 0.000652,
+        "Edge_Betweenness_max": 0.257444,
+        "Degree_From_Bus_mean": 4.082530018603078,
+        "Degree_From_Bus_std": 1.7631817104945868,
+        "Degree_From_Bus_min": 2,
+        "Degree_From_Bus_max": 9,
+        "Degree_To_Bus_mean": 3.8240036078696655,
+        "Degree_To_Bus_std": 1.4638962515835883,
+        "Degree_To_Bus_min": 2,
+        "Degree_To_Bus_max": 9,
+        "Line_Outage_Sensitivity_mean": 0.8207453865494119,
+        "Line_Outage_Sensitivity_std": 0.1957149410657538,
+        "Line_Outage_Sensitivity_min": 0.265902,
+        "Line_Outage_Sensitivity_max": 1.0
+      }
+    ],
+    "scope": "Validation aggregates only. No scenario identifiers or candidate records."
+  },
+  "single_features": [
+    {
+      "score": "Total_Demand",
+      "PR_AUC": 0.18702442084232826
+    },
+    {
+      "score": "Renewable_Generation_Pct",
+      "PR_AUC": 0.1338814597787636
+    },
+    {
+      "score": "Hour_of_Day",
+      "PR_AUC": 0.12979460666699155
+    },
+    {
+      "score": "Pre_Outage_Line_Loading",
+      "PR_AUC": 0.6389853694795998
+    },
+    {
+      "score": "Line_Thermal_Rating",
+      "PR_AUC": 0.616893940702203
+    },
+    {
+      "score": "Edge_Betweenness",
+      "PR_AUC": 0.16986741649426465
+    },
+    {
+      "score": "Degree_From_Bus",
+      "PR_AUC": 0.11673540193926024
+    },
+    {
+      "score": "Degree_To_Bus",
+      "PR_AUC": 0.10411548372603016
+    },
+    {
+      "score": "Line_Outage_Sensitivity",
+      "PR_AUC": 0.11199397011735024
+    }
+  ],
+  "best_single_feature": "Pre_Outage_Line_Loading",
+  "strongest_heuristic": "Pre_Outage_Line_Loading",
+  "rankings": [
+    {
+      "score": "Pre_Outage_Line_Loading",
+      "PR_AUC": 0.6389854426173088,
+      "screening": [
+        {
+          "budget": 0.01,
+          "score": "Pre_Outage_Line_Loading",
+          "number_screened": 1532,
+          "percent_screened": 1.0006204892067536,
+          "violations_captured": 1406,
+          "capture_rate": 0.0792603867185298,
+          "violations_missed": 16333,
+          "workload_reduction": 0.9899937951079325,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 0.0863098258075427,
+          "share_of_best": 0.918324025995232,
+          "best_possible_realized": 0.08636338012289306,
+          "share_of_best_realized": 0.9177545691906005
+        },
+        {
+          "budget": 0.05,
+          "score": "Pre_Outage_Line_Loading",
+          "number_screened": 7656,
+          "percent_screened": 5.0004898599000684,
+          "violations_captured": 5744,
+          "capture_rate": 0.3238063024973223,
+          "violations_missed": 11995,
+          "workload_reduction": 0.9499951014009993,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 0.43154912903771353,
+          "share_of_best": 0.7503347375983802,
+          "best_possible_realized": 0.4315914087603585,
+          "share_of_best_realized": 0.7502612330198537
+        },
+        {
+          "budget": 0.1,
+          "score": "Pre_Outage_Line_Loading",
+          "number_screened": 15311,
+          "percent_screened": 10.000326573266712,
+          "violations_captured": 9638,
+          "capture_rate": 0.5433226224702633,
+          "violations_missed": 8101,
+          "workload_reduction": 0.8999967342673328,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 0.8630982580754271,
+          "share_of_best": 0.629502628914797,
+          "best_possible_realized": 0.8631264445571903,
+          "share_of_best_realized": 0.6294820717131475
+        },
+        {
+          "budget": 0.2,
+          "score": "Pre_Outage_Line_Loading",
+          "number_screened": 30621,
+          "percent_screened": 20.0,
+          "violations_captured": 13974,
+          "capture_rate": 0.7877557923220023,
+          "violations_missed": 3765,
+          "workload_reduction": 0.8,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 1.0,
+          "share_of_best": 0.7877557923220023,
+          "best_possible_realized": 1.0,
+          "share_of_best_realized": 0.7877557923220023
+        }
+      ]
+    },
+    {
+      "score": "loading_times_sensitivity",
+      "PR_AUC": 0.5292471835978398,
+      "screening": [
+        {
+          "budget": 0.01,
+          "score": "loading_times_sensitivity",
+          "number_screened": 1532,
+          "percent_screened": 1.0006204892067536,
+          "violations_captured": 1363,
+          "capture_rate": 0.07683634928688202,
+          "violations_missed": 16376,
+          "workload_reduction": 0.9899937951079325,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 0.0863098258075427,
+          "share_of_best": 0.8902387250579668,
+          "best_possible_realized": 0.08636338012289306,
+          "share_of_best_realized": 0.8896866840731071
+        },
+        {
+          "budget": 0.05,
+          "score": "loading_times_sensitivity",
+          "number_screened": 7656,
+          "percent_screened": 5.0004898599000684,
+          "violations_captured": 5065,
+          "capture_rate": 0.28552906026269803,
+          "violations_missed": 12674,
+          "workload_reduction": 0.9499951014009993,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 0.43154912903771353,
+          "share_of_best": 0.6616374383592959,
+          "best_possible_realized": 0.4315914087603585,
+          "share_of_best_realized": 0.6615726227795194
+        },
+        {
+          "budget": 0.1,
+          "score": "loading_times_sensitivity",
+          "number_screened": 15311,
+          "percent_screened": 10.000326573266712,
+          "violations_captured": 7896,
+          "capture_rate": 0.44512092000676473,
+          "violations_missed": 9843,
+          "workload_reduction": 0.8999967342673328,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 0.8630982580754271,
+          "share_of_best": 0.5157245027922014,
+          "best_possible_realized": 0.8631264445571903,
+          "share_of_best_realized": 0.5157076611586441
+        },
+        {
+          "budget": 0.2,
+          "score": "loading_times_sensitivity",
+          "number_screened": 30621,
+          "percent_screened": 20.0,
+          "violations_captured": 11890,
+          "capture_rate": 0.670274536332375,
+          "violations_missed": 5849,
+          "workload_reduction": 0.8,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 1.0,
+          "share_of_best": 0.670274536332375,
+          "best_possible_realized": 1.0,
+          "share_of_best_realized": 0.670274536332375
+        }
+      ]
+    },
+    {
+      "score": "risk_score",
+      "PR_AUC": 0.9246573863320393,
+      "screening": [
+        {
+          "budget": 0.01,
+          "score": "risk_score",
+          "number_screened": 1532,
+          "percent_screened": 1.0006204892067536,
+          "violations_captured": 1532,
+          "capture_rate": 0.08636338012289306,
+          "violations_missed": 16207,
+          "workload_reduction": 0.9899937951079325,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 0.0863098258075427,
+          "share_of_best": 1.0006204892067534,
+          "best_possible_realized": 0.08636338012289306,
+          "share_of_best_realized": 1.0
+        },
+        {
+          "budget": 0.05,
+          "score": "risk_score",
+          "number_screened": 7656,
+          "percent_screened": 5.0004898599000684,
+          "violations_captured": 7644,
+          "capture_rate": 0.4309149331980382,
+          "violations_missed": 10095,
+          "workload_reduction": 0.9499951014009993,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 0.43154912903771353,
+          "share_of_best": 0.9985304202997941,
+          "best_possible_realized": 0.4315914087603585,
+          "share_of_best_realized": 0.9984326018808778
+        },
+        {
+          "budget": 0.1,
+          "score": "risk_score",
+          "number_screened": 15311,
+          "percent_screened": 10.000326573266712,
+          "violations_captured": 14000,
+          "capture_rate": 0.7892214893736964,
+          "violations_missed": 3739,
+          "workload_reduction": 0.8999967342673328,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 0.8630982580754271,
+          "share_of_best": 0.9144051467946834,
+          "best_possible_realized": 0.8631264445571903,
+          "share_of_best_realized": 0.9143752857422769
+        },
+        {
+          "budget": 0.2,
+          "score": "risk_score",
+          "number_screened": 30621,
+          "percent_screened": 20.0,
+          "violations_captured": 16864,
+          "capture_rate": 0.950673656914144,
+          "violations_missed": 875,
+          "workload_reduction": 0.8,
+          "prevalence": 0.11586166356422063,
+          "best_possible": 1.0,
+          "share_of_best": 0.950673656914144,
+          "best_possible_realized": 1.0,
+          "share_of_best_realized": 0.950673656914144
+        }
+      ]
+    }
+  ],
+  "per_scenario": [
+    {
+      "score": "Pre_Outage_Line_Loading",
+      "budget": 0.1,
+      "scenarios": 865,
+      "positive_scenarios": 865,
+      "mean_recall_positive_scenarios": 0.5416408690692615,
+      "mean_best_possible_positive_scenarios": 0.8456760190891882,
+      "mean_share_of_best_positive_scenarios": 0.6646358942190376,
+      "median_recall_positive_scenarios": 0.5333333333333333,
+      "share_all_scenarios_with_miss": 0.9942196531791907,
+      "share_positive_scenarios_with_miss": 0.9942196531791907,
+      "zero_positive_policy": "Excluded from recall mean and median. Included as no miss in all-scenario share."
+    },
+    {
+      "score": "Pre_Outage_Line_Loading",
+      "budget": 0.2,
+      "scenarios": 865,
+      "positive_scenarios": 865,
+      "mean_recall_positive_scenarios": 0.7938763412828349,
+      "mean_best_possible_positive_scenarios": 0.9809894081568294,
+      "mean_share_of_best_positive_scenarios": 0.8095171270313721,
+      "median_recall_positive_scenarios": 0.7894736842105263,
+      "share_all_scenarios_with_miss": 0.9271676300578034,
+      "share_positive_scenarios_with_miss": 0.9271676300578034,
+      "zero_positive_policy": "Excluded from recall mean and median. Included as no miss in all-scenario share."
+    },
+    {
+      "score": "loading_times_sensitivity",
+      "budget": 0.1,
+      "scenarios": 865,
+      "positive_scenarios": 865,
+      "mean_recall_positive_scenarios": 0.42863924307294016,
+      "mean_best_possible_positive_scenarios": 0.8456760190891882,
+      "mean_share_of_best_positive_scenarios": 0.5324498140126829,
+      "median_recall_positive_scenarios": 0.4230769230769231,
+      "share_all_scenarios_with_miss": 1.0,
+      "share_positive_scenarios_with_miss": 1.0,
+      "zero_positive_policy": "Excluded from recall mean and median. Included as no miss in all-scenario share."
+    },
+    {
+      "score": "loading_times_sensitivity",
+      "budget": 0.2,
+      "scenarios": 865,
+      "positive_scenarios": 865,
+      "mean_recall_positive_scenarios": 0.6644173141624133,
+      "mean_best_possible_positive_scenarios": 0.9809894081568294,
+      "mean_share_of_best_positive_scenarios": 0.677670312810516,
+      "median_recall_positive_scenarios": 0.6666666666666666,
+      "share_all_scenarios_with_miss": 0.9976878612716763,
+      "share_positive_scenarios_with_miss": 0.9976878612716763,
+      "zero_positive_policy": "Excluded from recall mean and median. Included as no miss in all-scenario share."
+    },
+    {
+      "score": "risk_score",
+      "budget": 0.1,
+      "scenarios": 865,
+      "positive_scenarios": 865,
+      "mean_recall_positive_scenarios": 0.8026761712085309,
+      "mean_best_possible_positive_scenarios": 0.8456760190891883,
+      "mean_share_of_best_positive_scenarios": 0.954012476519882,
+      "median_recall_positive_scenarios": 0.8571428571428571,
+      "share_all_scenarios_with_miss": 0.7040462427745665,
+      "share_positive_scenarios_with_miss": 0.7040462427745665,
+      "zero_positive_policy": "Excluded from recall mean and median. Included as no miss in all-scenario share."
+    },
+    {
+      "score": "risk_score",
+      "budget": 0.2,
+      "scenarios": 865,
+      "positive_scenarios": 865,
+      "mean_recall_positive_scenarios": 0.9380100595082785,
+      "mean_best_possible_positive_scenarios": 0.980989408156829,
+      "mean_share_of_best_positive_scenarios": 0.9555407855694507,
+      "median_recall_positive_scenarios": 1.0,
+      "share_all_scenarios_with_miss": 0.44046242774566474,
+      "share_positive_scenarios_with_miss": 0.44046242774566474,
+      "zero_positive_policy": "Excluded from recall mean and median. Included as no miss in all-scenario share."
+    }
+  ],
+  "score_direction": "All nine raw features ranked descending. No sign search.",
+  "selection_note": "Best feature and heuristic selected on this validation sample. Their estimates and gaps are descriptive and subject to selection optimism.",
+  "pr_auc_method": "Spark areaUnderPR with numBins=1000. Not average precision.",
+  "ceiling_note": "Nominal share can exceed one for tiny samples due to ceil(N * budget). Realized-budget ceiling is also reported.",
+  "test_evaluated": false
+}

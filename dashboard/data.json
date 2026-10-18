@@ -1,0 +1,615 @@
+{
+  "small": {
+    "metrics": {
+      "lr": {
+        "TP": 600,
+        "FP": 127,
+        "FN": 272,
+        "TN": 6652,
+        "precision": 0.8253094910591472,
+        "recall": 0.6880733944954128,
+        "F1": 0.75046904315197,
+        "threshold": 0.5,
+        "percent_flagged": 9.50202587897007,
+        "workload_reduction": 0.9049797412102993,
+        "PR_AUC": 0.8476665962320831,
+        "ROC_AUC": 0.9696369048505183
+      },
+      "rf": {
+        "TP": 540,
+        "FP": 56,
+        "FN": 332,
+        "TN": 6723,
+        "precision": 0.9060402684563759,
+        "recall": 0.6192660550458715,
+        "F1": 0.7356948228882835,
+        "threshold": 0.5,
+        "percent_flagged": 7.789831394588942,
+        "workload_reduction": 0.9221016860541106,
+        "PR_AUC": 0.8588163762290436,
+        "ROC_AUC": 0.9629578190066198
+      },
+      "gbt": {
+        "TP": 678,
+        "FP": 82,
+        "FN": 194,
+        "TN": 6697,
+        "precision": 0.8921052631578947,
+        "recall": 0.7775229357798165,
+        "F1": 0.8308823529411764,
+        "threshold": 0.5,
+        "percent_flagged": 9.93334204679127,
+        "workload_reduction": 0.9006665795320873,
+        "PR_AUC": 0.9141648087359029,
+        "ROC_AUC": 0.9810032940367649
+      }
+    },
+    "screening": [
+      {
+        "budget": 0.01,
+        "score": "risk_score",
+        "number_screened": 77,
+        "percent_screened": 1.0064043915827996,
+        "violations_captured": 76,
+        "capture_rate": 0.0871559633027523,
+        "violations_missed": 796,
+        "workload_reduction": 0.989935956084172
+      },
+      {
+        "budget": 0.05,
+        "score": "risk_score",
+        "number_screened": 383,
+        "percent_screened": 5.005881584106652,
+        "violations_captured": 381,
+        "capture_rate": 0.4369266055045872,
+        "violations_missed": 491,
+        "workload_reduction": 0.9499411841589335
+      },
+      {
+        "budget": 0.1,
+        "score": "risk_score",
+        "number_screened": 766,
+        "percent_screened": 10.011763168213305,
+        "violations_captured": 680,
+        "capture_rate": 0.7798165137614679,
+        "violations_missed": 192,
+        "workload_reduction": 0.8998823683178669
+      },
+      {
+        "budget": 0.2,
+        "score": "risk_score",
+        "number_screened": 1531,
+        "percent_screened": 20.010456149522938,
+        "violations_captured": 830,
+        "capture_rate": 0.9518348623853211,
+        "violations_missed": 42,
+        "workload_reduction": 0.7998954385047706
+      },
+      {
+        "budget": 0.01,
+        "score": "Pre_Outage_Line_Loading",
+        "number_screened": 77,
+        "percent_screened": 1.0064043915827996,
+        "violations_captured": 74,
+        "capture_rate": 0.08486238532110092,
+        "violations_missed": 798,
+        "workload_reduction": 0.989935956084172
+      },
+      {
+        "budget": 0.05,
+        "score": "Pre_Outage_Line_Loading",
+        "number_screened": 383,
+        "percent_screened": 5.005881584106652,
+        "violations_captured": 282,
+        "capture_rate": 0.32339449541284404,
+        "violations_missed": 590,
+        "workload_reduction": 0.9499411841589335
+      },
+      {
+        "budget": 0.1,
+        "score": "Pre_Outage_Line_Loading",
+        "number_screened": 766,
+        "percent_screened": 10.011763168213305,
+        "violations_captured": 466,
+        "capture_rate": 0.5344036697247706,
+        "violations_missed": 406,
+        "workload_reduction": 0.8998823683178669
+      },
+      {
+        "budget": 0.2,
+        "score": "Pre_Outage_Line_Loading",
+        "number_screened": 1531,
+        "percent_screened": 20.010456149522938,
+        "violations_captured": 693,
+        "capture_rate": 0.7947247706422018,
+        "violations_missed": 179,
+        "workload_reduction": 0.7998954385047706
+      }
+    ],
+    "note": "50K local reproduction \u00b7 historical metrics match to four decimals."
+  },
+  "big": {
+    "metrics": {
+      "lr": {
+        "TP": 12197,
+        "FP": 2475,
+        "FN": 5542,
+        "TN": 132891,
+        "precision": 0.8313113413304253,
+        "recall": 0.6875810361350696,
+        "F1": 0.7526457067045138,
+        "threshold": 0.5,
+        "percent_flagged": 9.582965938408282,
+        "workload_reduction": 0.9041703406159172,
+        "PR_AUC": 0.8554968349779356,
+        "ROC_AUC": 0.9699833167494812
+      },
+      "rf": {
+        "TP": 10989,
+        "FP": 687,
+        "FN": 6750,
+        "TN": 134679,
+        "precision": 0.9411613566289825,
+        "recall": 0.619482496194825,
+        "F1": 0.7471698113207548,
+        "threshold": 0.5,
+        "percent_flagged": 7.62613892426766,
+        "workload_reduction": 0.9237386107573234,
+        "PR_AUC": 0.8761710024690955,
+        "ROC_AUC": 0.9647342934204646
+      },
+      "gbt": {
+        "TP": 13894,
+        "FP": 1239,
+        "FN": 3845,
+        "TN": 134127,
+        "precision": 0.918125949910791,
+        "recall": 0.783245955239867,
+        "F1": 0.8453394986614747,
+        "threshold": 0.5,
+        "percent_flagged": 9.884066490317103,
+        "workload_reduction": 0.901159335096829,
+        "PR_AUC": 0.9246578475567113,
+        "ROC_AUC": 0.9827366723690208
+      }
+    },
+    "screening": [
+      {
+        "budget": 0.01,
+        "score": "risk_score",
+        "number_screened": 1532,
+        "percent_screened": 1.0006204892067536,
+        "violations_captured": 1532,
+        "capture_rate": 0.08636338012289306,
+        "violations_missed": 16207,
+        "workload_reduction": 0.9899937951079325
+      },
+      {
+        "budget": 0.05,
+        "score": "risk_score",
+        "number_screened": 7656,
+        "percent_screened": 5.0004898599000684,
+        "violations_captured": 7644,
+        "capture_rate": 0.4309149331980382,
+        "violations_missed": 10095,
+        "workload_reduction": 0.9499951014009993
+      },
+      {
+        "budget": 0.1,
+        "score": "risk_score",
+        "number_screened": 15311,
+        "percent_screened": 10.000326573266712,
+        "violations_captured": 14000,
+        "capture_rate": 0.7892214893736964,
+        "violations_missed": 3739,
+        "workload_reduction": 0.8999967342673328
+      },
+      {
+        "budget": 0.2,
+        "score": "risk_score",
+        "number_screened": 30621,
+        "percent_screened": 20.0,
+        "violations_captured": 16864,
+        "capture_rate": 0.950673656914144,
+        "violations_missed": 875,
+        "workload_reduction": 0.8
+      },
+      {
+        "budget": 0.01,
+        "score": "Pre_Outage_Line_Loading",
+        "number_screened": 1532,
+        "percent_screened": 1.0006204892067536,
+        "violations_captured": 1406,
+        "capture_rate": 0.0792603867185298,
+        "violations_missed": 16333,
+        "workload_reduction": 0.9899937951079325
+      },
+      {
+        "budget": 0.05,
+        "score": "Pre_Outage_Line_Loading",
+        "number_screened": 7656,
+        "percent_screened": 5.0004898599000684,
+        "violations_captured": 5744,
+        "capture_rate": 0.3238063024973223,
+        "violations_missed": 11995,
+        "workload_reduction": 0.9499951014009993
+      },
+      {
+        "budget": 0.1,
+        "score": "Pre_Outage_Line_Loading",
+        "number_screened": 15311,
+        "percent_screened": 10.000326573266712,
+        "violations_captured": 9638,
+        "capture_rate": 0.5433226224702633,
+        "violations_missed": 8101,
+        "workload_reduction": 0.8999967342673328
+      },
+      {
+        "budget": 0.2,
+        "score": "Pre_Outage_Line_Loading",
+        "number_screened": 30621,
+        "percent_screened": 20.0,
+        "violations_captured": 13974,
+        "capture_rate": 0.7877557923220023,
+        "violations_missed": 3765,
+        "workload_reduction": 0.8
+      }
+    ],
+    "note": "1M local Spark run \u00b7 validation population/runtime differ from historical Dataproc results."
+  },
+  "cloud": {
+    "metrics": {
+      "lr": {
+        "PR_AUC": 0.8554999165,
+        "ROC_AUC": 0.9699829715,
+        "precision": 0.8313113413,
+        "recall": 0.6875810361,
+        "F1": 0.7526457067,
+        "TP": 12197,
+        "FP": 2475,
+        "FN": 5542,
+        "TN": 132891,
+        "threshold": 0.5
+      },
+      "rf": {
+        "PR_AUC": 0.8683321235,
+        "ROC_AUC": 0.9656576838,
+        "precision": 0.8784405399,
+        "recall": 0.6566886521,
+        "F1": 0.7515483871,
+        "TP": 11649,
+        "FP": 1612,
+        "FN": 6090,
+        "TN": 133754,
+        "threshold": 0.5
+      },
+      "gbt": {
+        "PR_AUC": 0.9249987208,
+        "ROC_AUC": 0.9824823161,
+        "precision": 0.9259778401,
+        "recall": 0.782062123,
+        "F1": 0.8479569695,
+        "TP": 13873,
+        "FP": 1109,
+        "FN": 3866,
+        "TN": 134257,
+        "threshold": 0.5
+      }
+    },
+    "screening": [
+      {
+        "budget": 0.2,
+        "score": "risk_score",
+        "number_screened": 30621,
+        "percent_screened": 20.0,
+        "violations_captured": 16812,
+        "capture_rate": 0.9477422628107559,
+        "violations_missed": 927,
+        "workload_reduction": 0.8
+      },
+      {
+        "budget": 0.2,
+        "score": "Pre_Outage_Line_Loading",
+        "number_screened": 30621,
+        "percent_screened": 20.0,
+        "violations_captured": 13974,
+        "capture_rate": 0.7877557923220023,
+        "violations_missed": 3765,
+        "workload_reduction": 0.8
+      }
+    ],
+    "note": "Fresh Dataproc run, October 2026. Only the 20% review budget is available. Final test unevaluated. RF PR-AUC falls within local seed and partition variation. Causation is not isolated."
+  },
+  "review": {
+    "metrics": {
+      "loading": {
+        "PR_AUC": 0.6389854426173088
+      },
+      "gbt": {
+        "PR_AUC": 0.9246573863320393
+      }
+    },
+    "screening": [
+      {
+        "budget": 0.01,
+        "score": "Pre_Outage_Line_Loading",
+        "number_screened": 1532,
+        "percent_screened": 1.0006204892067536,
+        "violations_captured": 1406,
+        "capture_rate": 0.0792603867185298,
+        "violations_missed": 16333,
+        "workload_reduction": 0.9899937951079325,
+        "prevalence": 0.11586166356422063,
+        "best_possible": 0.0863098258075427,
+        "share_of_best": 0.918324025995232,
+        "best_possible_realized": 0.08636338012289306,
+        "share_of_best_realized": 0.9177545691906005
+      },
+      {
+        "budget": 0.05,
+        "score": "Pre_Outage_Line_Loading",
+        "number_screened": 7656,
+        "percent_screened": 5.0004898599000684,
+        "violations_captured": 5744,
+        "capture_rate": 0.3238063024973223,
+        "violations_missed": 11995,
+        "workload_reduction": 0.9499951014009993,
+        "prevalence": 0.11586166356422063,
+        "best_possible": 0.43154912903771353,
+        "share_of_best": 0.7503347375983802,
+        "best_possible_realized": 0.4315914087603585,
+        "share_of_best_realized": 0.7502612330198537
+      },
+      {
+        "budget": 0.1,
+        "score": "Pre_Outage_Line_Loading",
+        "number_screened": 15311,
+        "percent_screened": 10.000326573266712,
+        "violations_captured": 9638,
+        "capture_rate": 0.5433226224702633,
+        "violations_missed": 8101,
+        "workload_reduction": 0.8999967342673328,
+        "prevalence": 0.11586166356422063,
+        "best_possible": 0.8630982580754271,
+        "share_of_best": 0.629502628914797,
+        "best_possible_realized": 0.8631264445571903,
+        "share_of_best_realized": 0.6294820717131475
+      },
+      {
+        "budget": 0.2,
+        "score": "Pre_Outage_Line_Loading",
+        "number_screened": 30621,
+        "percent_screened": 20.0,
+        "violations_captured": 13974,
+        "capture_rate": 0.7877557923220023,
+        "violations_missed": 3765,
+        "workload_reduction": 0.8,
+        "prevalence": 0.11586166356422063,
+        "best_possible": 1.0,
+        "share_of_best": 0.7877557923220023,
+        "best_possible_realized": 1.0,
+        "share_of_best_realized": 0.7877557923220023
+      },
+      {
+        "budget": 0.01,
+        "score": "risk_score",
+        "number_screened": 1532,
+        "percent_screened": 1.0006204892067536,
+        "violations_captured": 1532,
+        "capture_rate": 0.08636338012289306,
+        "violations_missed": 16207,
+        "workload_reduction": 0.9899937951079325,
+        "prevalence": 0.11586166356422063,
+        "best_possible": 0.0863098258075427,
+        "share_of_best": 1.0006204892067534,
+        "best_possible_realized": 0.08636338012289306,
+        "share_of_best_realized": 1.0
+      },
+      {
+        "budget": 0.05,
+        "score": "risk_score",
+        "number_screened": 7656,
+        "percent_screened": 5.0004898599000684,
+        "violations_captured": 7644,
+        "capture_rate": 0.4309149331980382,
+        "violations_missed": 10095,
+        "workload_reduction": 0.9499951014009993,
+        "prevalence": 0.11586166356422063,
+        "best_possible": 0.43154912903771353,
+        "share_of_best": 0.9985304202997941,
+        "best_possible_realized": 0.4315914087603585,
+        "share_of_best_realized": 0.9984326018808778
+      },
+      {
+        "budget": 0.1,
+        "score": "risk_score",
+        "number_screened": 15311,
+        "percent_screened": 10.000326573266712,
+        "violations_captured": 14000,
+        "capture_rate": 0.7892214893736964,
+        "violations_missed": 3739,
+        "workload_reduction": 0.8999967342673328,
+        "prevalence": 0.11586166356422063,
+        "best_possible": 0.8630982580754271,
+        "share_of_best": 0.9144051467946834,
+        "best_possible_realized": 0.8631264445571903,
+        "share_of_best_realized": 0.9143752857422769
+      },
+      {
+        "budget": 0.2,
+        "score": "risk_score",
+        "number_screened": 30621,
+        "percent_screened": 20.0,
+        "violations_captured": 16864,
+        "capture_rate": 0.950673656914144,
+        "violations_missed": 875,
+        "workload_reduction": 0.8,
+        "prevalence": 0.11586166356422063,
+        "best_possible": 1.0,
+        "share_of_best": 0.950673656914144,
+        "best_possible_realized": 1.0,
+        "share_of_best_realized": 0.950673656914144
+      }
+    ],
+    "comparisons": [
+      {
+        "metric": "PR-AUC",
+        "baseline": 0.6389854426173088,
+        "GBT": 0.9246573863320393,
+        "absolute_gain": 0.2856719437147305,
+        "relative_gain": 0.44707112973436025,
+        "unit": "PR-AUC"
+      },
+      {
+        "metric": "Capture at 10% review",
+        "baseline": 0.5433226224702633,
+        "GBT": 0.7892214893736964,
+        "absolute_gain": 0.2458988669034331,
+        "relative_gain": 0.4525835235526042,
+        "unit": "proportion"
+      },
+      {
+        "metric": "Capture at 20% review",
+        "baseline": 0.7877557923220023,
+        "GBT": 0.950673656914144,
+        "absolute_gain": 0.16291786459214164,
+        "relative_gain": 0.20681265206812657,
+        "unit": "proportion"
+      },
+      {
+        "metric": "Mean per-scenario recall at 10%",
+        "baseline": 0.5416408690692615,
+        "GBT": 0.8026761712085309,
+        "absolute_gain": 0.2610353021392694,
+        "relative_gain": 0.4819342797891603,
+        "unit": "proportion"
+      },
+      {
+        "metric": "Mean per-scenario recall at 20%",
+        "baseline": 0.7938763412828349,
+        "GBT": 0.9380100595082785,
+        "absolute_gain": 0.14413371822544363,
+        "relative_gain": 0.181556888308998,
+        "unit": "proportion"
+      },
+      {
+        "metric": "Scenarios with at least one miss at 10%",
+        "baseline": 0.9942196531791907,
+        "GBT": 0.7040462427745665,
+        "absolute_gain": -0.2901734104046242,
+        "relative_gain": -0.291860465116279,
+        "unit": "proportion"
+      },
+      {
+        "metric": "Scenarios with at least one miss at 20%",
+        "baseline": 0.9271676300578034,
+        "GBT": 0.44046242774566474,
+        "absolute_gain": -0.4867052023121387,
+        "relative_gain": -0.5249376558603491,
+        "unit": "proportion"
+      },
+      {
+        "metric": "Share of nominal ceiling at 10%",
+        "baseline": 0.629502628914797,
+        "GBT": 0.9144051467946834,
+        "absolute_gain": 0.2849025178798864,
+        "relative_gain": 0.4525835235526044,
+        "unit": "proportion"
+      }
+    ],
+    "note": "Local 1M validation audit: 153,105 cases across 865 scenarios. Synthetic IEEE 118-bus DC benchmark. Policy frozen. Final test unevaluated.",
+    "uncertainty": {
+      "provenance": {
+        "data_sha256": "66d3e763848cb7fa07867dd83587b1125b53366df6dd1af0dd54b7739e0c8aa6",
+        "validation": {
+          "rows": 153105,
+          "positive_count": 17739,
+          "unique_scenarios": 865,
+          "prevalence": 0.11586166356422063
+        },
+        "split_seed": 4152026,
+        "split_method": "sorted scenario IDs, randomSplit 70/30 then 50/50",
+        "spark": "4.0.1",
+        "python": "3.11.5",
+        "java": "21.0.1",
+        "model_content_sha256": "90930b358852484762cf6b63ee41f3028bb19c03fb7b3a5ed80cf58908e7429a",
+        "test_evaluated": false,
+        "driver_memory_config": "not explicitly configured",
+        "jvm_max_heap_bytes": 1073741824,
+        "bootstrap_seed": 4152026,
+        "resamples": 1000,
+        "bootstrap_unit": "operating scenario"
+      },
+      "status": "complete",
+      "resamples": 1000,
+      "valid_resamples": 1000,
+      "bootstrap_seed": 4152026,
+      "bootstrap_unit": "operating scenario",
+      "validation_scenarios": 865,
+      "validation_rows": 153105,
+      "point_estimates": {
+        "gbt_capture_10": 0.7892214893736964,
+        "gbt_capture_20": 0.950673656914144,
+        "gbt_mean_scenario_recall_20": 0.9380100595082792,
+        "baseline_capture_10": 0.5433226224702633,
+        "baseline_capture_20": 0.7877557923220023,
+        "baseline_mean_scenario_recall_20": 0.7938763412828351,
+        "gap_capture_10": 0.2458988669034331,
+        "gap_capture_20": 0.16291786459214164,
+        "gap_mean_scenario_recall_20": 0.14413371822544407
+      },
+      "percentile_95_intervals": {
+        "gbt_capture_10": {
+          "lower": 0.7709240681100402,
+          "upper": 0.8053169574441567
+        },
+        "gbt_capture_20": {
+          "lower": 0.9428698444726595,
+          "upper": 0.95641166365295
+        },
+        "gbt_mean_scenario_recall_20": {
+          "lower": 0.9316975467107903,
+          "upper": 0.9435920273867463
+        },
+        "baseline_capture_10": {
+          "lower": 0.5358333768312122,
+          "upper": 0.5494395038969051
+        },
+        "baseline_capture_20": {
+          "lower": 0.7803460015161635,
+          "upper": 0.7952936222947714
+        },
+        "baseline_mean_scenario_recall_20": {
+          "lower": 0.7869253937548157,
+          "upper": 0.8009825492378974
+        },
+        "gap_capture_10": {
+          "lower": 0.2322818252158332,
+          "upper": 0.2596053443071483
+        },
+        "gap_capture_20": {
+          "lower": 0.157462585584919,
+          "upper": 0.16721467660476705
+        },
+        "gap_mean_scenario_recall_20": {
+          "lower": 0.13849906407360413,
+          "upper": 0.14965030917695263
+        }
+      },
+      "method": "Paired scenario-cluster bootstrap. Sample n scenarios with replacement using multinomial multiplicities. Every outage row inherits its scenario multiplicity. Pooled budgets use ceil(resampled row count * budget). Repeated boundary rows may be partly selected. Per-scenario recall uses ceil(original scenario row count * 0.2), with multiplicity-weighted means over positive scenarios.",
+      "interval_method": "Percentile 95%, NumPy linear quantiles at 0.025 and 0.975",
+      "selection_limit": "Fixed existing model and validation-selected loading baseline. Intervals do not correct selection optimism or calibration overlap.",
+      "pr_auc": {
+        "included": false,
+        "reason": "Scenario-bootstrap uncertainty is reported for capture and per-scenario recall. PR-AUC uncertainty was omitted because the bounded Python implementation did not exactly reproduce Spark's areaUnderPR definition.",
+        "equivalence_status": "Not established. No alternative PR-AUC estimator or interval is computed.",
+        "reference_definition": "Spark areaUnderPR, numBins=1000"
+      },
+      "test_evaluated": false,
+      "point_estimate_check": {
+        "passed": true,
+        "absolute_tolerance": 1e-10
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "figures": [
+    {
+      "name": "dataproc_historical_comparison",
+      "source": "User-supplied manually verified October 2026 cloud aggregates",
+      "sha256": "2ba2d006777cf57ebf424caf9a9fd914513021bf59fe9d79de835d8ef1749954",
+      "coverage_note": "Historical rounded targets vs fresh validation. Runtime/implementation differ; exact RF cause not isolated."
+    },
+    {
+      "name": "dataproc_screening_20pct",
+      "source": "User-supplied manually verified October 2026 cloud aggregates",
+      "sha256": "a940602faef15c644b8b7f0051a7dd393a3e15e0b610006dca0b9950094b1566",
+      "coverage_note": "Fresh 1M validation: 30,621/153,105 rows reviewed. Only 20% supplied; no lower-budget curve invented."
+    },
+    {
+      "name": "dataproc_threshold_tradeoff",
+      "source": "User-supplied manually verified October 2026 cloud aggregates",
+      "sha256": "57638f109a754d6089063655998d8a656b320279ba32dd254816f25456b3cf44",
+      "coverage_note": "Two supplied validation operating points; connecting segments guide the eye. No fresh test evaluation."
+    }
+  ],
+  "complete_budget_curve": false,
+  "complete_threshold_curve": false
+}

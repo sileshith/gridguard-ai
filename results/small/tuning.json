@@ -1,0 +1,45 @@
+{
+  "seed": 4152026,
+  "folds": 3,
+  "fold_method": "xxhash64 scenario_id and seed modulo 3",
+  "configurations": 2,
+  "records": [
+    {
+      "parameters": {
+        "maxDepth": 3,
+        "maxIter": 20
+      },
+      "fold_scores": [
+        0.863576590036629,
+        0.8669378755519529,
+        0.8753096277994494
+      ],
+      "mean_PR_AUC": 0.8686080311293437
+    },
+    {
+      "parameters": {
+        "maxDepth": 5,
+        "maxIter": 20
+      },
+      "fold_scores": [
+        0.9083748432407278,
+        0.9193545928327101,
+        0.9176534911698772
+      ],
+      "mean_PR_AUC": 0.9151276424144384
+    }
+  ],
+  "winner": {
+    "parameters": {
+      "maxDepth": 5,
+      "maxIter": 20
+    },
+    "fold_scores": [
+      0.9083748432407278,
+      0.9193545928327101,
+      0.9176534911698772
+    ],
+    "mean_PR_AUC": 0.9151276424144384
+  },
+  "runtime_seconds": 26.635881148977205
+}

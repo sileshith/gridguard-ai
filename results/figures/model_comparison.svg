@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="633.6pt" height="345.6pt" viewBox="0 0 633.6 345.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-17T10:00:40.265480</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>GridGuard AI</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 345.6 
+L 633.6 345.6 
+L 633.6 0 
+L 0 0 
+z
+" style="fill: #fbfaf7"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 51.88 294.984 
+L 621.72 294.984 
+L 621.72 29.4 
+L 51.88 29.4 
+z
+" style="fill: #fbfaf7"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 77.781818 294.984 
+L 123.490909 294.984 
+L 123.490909 84.585229 
+L 77.781818 84.585229 
+z
+" clip-path="url(#p320f1ec079)" style="fill: #0072b2"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 268.236364 294.984 
+L 313.945455 294.984 
+L 313.945455 81.817749 
+L 268.236364 81.817749 
+z
+" clip-path="url(#p320f1ec079)" style="fill: #0072b2"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 458.690909 294.984 
+L 504.4 294.984 
+L 504.4 68.079751 
+L 458.690909 68.079751 
+z
+" clip-path="url(#p320f1ec079)" style="fill: #0072b2"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 123.490909 294.984 
+L 169.2 294.984 
+L 169.2 124.197753 
+L 123.490909 124.197753 
+z
+" clip-path="url(#p320f1ec079)" style="fill: #d55e00"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 313.945455 294.984 
+L 359.654545 294.984 
+L 359.654545 141.276378 
+L 313.945455 141.276378 
+z
+" clip-path="url(#p320f1ec079)" style="fill: #d55e00"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 504.4 294.984 
+L 550.109091 294.984 
+L 550.109091 101.995541 
+L 504.4 101.995541 
+z
+" clip-path="url(#p320f1ec079)" style="fill: #d55e00"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 169.2 294.984 
+L 214.909091 294.984 
+L 214.909091 108.71057 
+L 169.2 108.71057 
+z
+" clip-path="url(#p320f1ec079)" style="fill: #a67c00"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 359.654545 294.984 
+L 405.363636 294.984 
+L 405.363636 112.377669 
+L 359.654545 112.377669 
+z
+" clip-path="url(#p320f1ec079)" style="fill: #a67c00"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 550.109091 294.984 
+L 595.818182 294.984 
+L 595.818182 88.751235 
+L 550.109091 88.751235 
+z
+" clip-path="url(#p320f1ec079)" style="fill: #a67c00"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m91e2c51497" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m91e2c51497" x="146.345455" y="294.984" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="146.345455" y="310.341422" transform="rotate(-0 146.345455 310.341422)">LR</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m91e2c51497" x="336.8" y="294.984" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="336.8" y="310.341422" transform="rotate(-0 336.8 310.341422)">RF</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m91e2c51497" x="527.254545" y="294.984" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="527.254545" y="310.341422" transform="rotate(-0 527.254545 310.341422)">GBT</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <defs>
+       <path id="m077f05d996" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m077f05d996" x="51.88" y="294.984" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end" x="44.88" y="299.162711" transform="rotate(-0 44.88 299.162711)">0.0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m077f05d996" x="51.88" y="245.342131" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end" x="44.88" y="249.520842" transform="rotate(-0 44.88 249.520842)">0.2</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m077f05d996" x="51.88" y="195.700262" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end" x="44.88" y="199.878973" transform="rotate(-0 44.88 199.878973)">0.4</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m077f05d996" x="51.88" y="146.058393" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end" x="44.88" y="150.237103" transform="rotate(-0 44.88 150.237103)">0.6</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m077f05d996" x="51.88" y="96.416523" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end" x="44.88" y="100.595234" transform="rotate(-0 44.88 100.595234)">0.8</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m077f05d996" x="51.88" y="46.774654" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end" x="44.88" y="50.953365" transform="rotate(-0 44.88 50.953365)">1.0</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="20.743984" y="162.192" transform="rotate(-90 20.743984 162.192)">Metric (0–1)</text>
+    </g>
+   </g>
+   <g id="patch_12">
+    <path d="M 51.88 294.984 
+L 51.88 29.4 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 51.88 294.984 
+L 621.72 294.984 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle" x="336.8" y="23.4" transform="rotate(-0 336.8 23.4)">GBT leads these fixed 50K validation baselines</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_14">
+     <path d="M 187.382188 54.700859 
+L 486.217813 54.700859 
+Q 488.417813 54.700859 488.417813 52.500859 
+L 488.417813 37.1 
+Q 488.417813 34.9 486.217813 34.9 
+L 187.382188 34.9 
+Q 185.182188 34.9 185.182188 37.1 
+L 185.182188 52.500859 
+Q 185.182188 54.700859 187.382188 54.700859 
+z
+" style="fill: #fbfaf7; opacity: 0.8; stroke: #cccccc; stroke-linejoin: miter"/>
+    </g>
+    <g id="patch_15">
+     <path d="M 189.582188 47.658281 
+L 211.582188 47.658281 
+L 211.582188 39.958281 
+L 189.582188 39.958281 
+z
+" style="fill: #0072b2"/>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start" x="220.382188" y="47.658281" transform="rotate(-0 220.382188 47.658281)">PR-AUC</text>
+    </g>
+    <g id="patch_16">
+     <path d="M 283.195625 47.658281 
+L 305.195625 47.658281 
+L 305.195625 39.958281 
+L 283.195625 39.958281 
+z
+" style="fill: #d55e00"/>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start" x="313.995625" y="47.658281" transform="rotate(-0 313.995625 47.658281)">Recall at 0.5</text>
+    </g>
+    <g id="patch_17">
+     <path d="M 404.35375 47.658281 
+L 426.35375 47.658281 
+L 426.35375 39.958281 
+L 404.35375 39.958281 
+z
+" style="fill: #a67c00"/>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start" x="435.15375" y="47.658281" transform="rotate(-0 435.15375 47.658281)">F1 at 0.5</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_15">
+   <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #475569" x="12.672" y="340.416" transform="rotate(-0 12.672 340.416)">Reproduced 50K validation; same split/features. Baseline defaults, not equal tuning budgets.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p320f1ec079">
+   <rect x="51.88" y="29.4" width="569.84" height="265.584"/>
+  </clipPath>
+ </defs>
+</svg>

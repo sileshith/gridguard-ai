@@ -1,0 +1,209 @@
+{
+  "publication_status": "PREPARED LOCALLY, PUBLICATION REQUIRES AUTHENTICATED OWNER VERIFICATION",
+  "target": "https://github.com/sileshith/gridguard-ai",
+  "privacy": {
+    "scan": "scripts/audit_local.py plus allowlist, binary-image visual review and scientific-byte comparison",
+    "findings": [],
+    "exclusions": [
+      "original Git history",
+      "canonical private datasets and row-level records",
+      "trained models",
+      "private GridRail instructions and knowledge packages",
+      "billing notes and raw cloud records",
+      "review bundles",
+      "local browser/account outputs",
+      "caches and temporary runtime files",
+      "deployment ZIPs",
+      "unrelated coursework and personal documents"
+    ],
+    "classified_non_secrets": [
+      "generic credential/token/password vocabulary in documentation and scanners",
+      "deliberately synthetic GPT URLs and credentials in test fixtures",
+      "logical historical dataset basenames, not resolved local data paths"
+    ],
+    "limitation": "Pattern and provenance checks are bounded and do not establish an exhaustive security guarantee."
+  },
+  "science": {
+    "src_files_unchanged": true,
+    "result_files_unchanged": true,
+    "notebook_and_HTML_unchanged": true,
+    "policy_freeze_unchanged": true,
+    "held_out_1m_final_test": "POLICY FROZEN / FINAL TEST UNEVALUATED",
+    "earlier_50k_test": "Historical exposed development evidence only",
+    "cloud_gbt_validation_pr_auc": 0.9249987208,
+    "primary_capture": "Local validation GBT 95.07%, loading 78.78%, gain +16.29 percentage points, 875 missed",
+    "rf": "Partition count is not isolated as the unique cause. Sensitivity-study layout differs from reference.",
+    "bootstrap": "Intervals do not correct selection optimism or calibration overlap."
+  },
+  "checks": {
+    "pytest": {
+      "passed": 91,
+      "failed": 0,
+      "data": "synthetic fixtures and aggregate JSON only"
+    },
+    "browser": {
+      "keyboard_banner_desktop_tablet_mobile": 207,
+      "mobile_visibility": 108,
+      "dashboard": 68,
+      "failed": 0
+    },
+    "readme_render": {
+      "passed": 8,
+      "failed": 0,
+      "viewports": [
+        "1440x1000",
+        "390x844"
+      ]
+    },
+    "aggregate_report": {
+      "fresh_kernel_code_cells": 25,
+      "errors": 0,
+      "training": false,
+      "new_test_scoring": false,
+      "all_cell_sources_unchanged": true
+    },
+    "internal_markdown_links": "PASS",
+    "citation_sources": 16,
+    "verified_doi_records": 10
+  },
+  "external_links": [
+    {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSddC199Z7tKwWrrFcPfUeZEiMqhM-7-hKzAlmLFpLpcesjSRA/viewform",
+      "status": 200,
+      "resolved": "https://docs.google.com/forms/d/e/1FAIpQLSddC199Z7tKwWrrFcPfUeZEiMqhM-7-hKzAlmLFpLpcesjSRA/viewform"
+    },
+    {
+      "url": "https://doi.org/10.1023/A:1010933404324",
+      "status": 200,
+      "resolved": "https://link.springer.com/10.1023/A:1010933404324"
+    },
+    {
+      "url": "https://doi.org/10.1109/PTC.2019.8810906",
+      "status": 202,
+      "resolved": "https://ieeexplore.ieee.org/document/8810906/"
+    },
+    {
+      "url": "https://doi.org/10.1109/TPWRS.2010.2051168",
+      "status": 202,
+      "resolved": "https://ieeexplore.ieee.org/document/5491276/"
+    },
+    {
+      "url": "https://doi.org/10.1109/TPWRS.2018.2890769",
+      "status": 202,
+      "resolved": "https://ieeexplore.ieee.org/document/8600355/"
+    },
+    {
+      "url": "https://doi.org/10.1111/ecog.02881",
+      "status": 403,
+      "interpretation": "publisher access restricted"
+    },
+    {
+      "url": "https://doi.org/10.1145/2382577.2382579",
+      "status": 403,
+      "interpretation": "publisher access restricted"
+    },
+    {
+      "url": "https://doi.org/10.1145/3287560.3287596",
+      "status": 403,
+      "interpretation": "publisher access restricted"
+    },
+    {
+      "url": "https://doi.org/10.1145/3458723",
+      "status": 403,
+      "interpretation": "publisher access restricted"
+    },
+    {
+      "url": "https://doi.org/10.1214/aos/1013203451",
+      "status": 200,
+      "resolved": "https://projecteuclid.org/journals/annals-of-statistics/volume-29/issue-5/Greedy-function-approximation-A-gradient-boosting-machine/10.1214/aos/1013203451.full"
+    },
+    {
+      "url": "https://doi.org/10.1371/journal.pone.0118432",
+      "status": 200,
+      "resolved": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118432"
+    },
+    {
+      "url": "https://github.com/MATPOWER/matpower/blob/master/LICENSE",
+      "status": 200,
+      "resolved": "https://github.com/MATPOWER/matpower/blob/master/LICENSE"
+    },
+    {
+      "url": "https://github.com/MATPOWER/matpower/blob/master/data/case118.m",
+      "status": 200,
+      "resolved": "https://github.com/MATPOWER/matpower/blob/master/data/case118.m"
+    },
+    {
+      "url": "https://gridguard-ai.pages.dev",
+      "status": 200,
+      "resolved": "https://gridguard-ai.pages.dev"
+    },
+    {
+      "url": "https://labs.ece.uw.edu/pstca/",
+      "status": 200,
+      "resolved": "https://labs.ece.uw.edu/pstca/"
+    },
+    {
+      "url": "https://matpower.org/docs/ref/matpower6.0/case118.html",
+      "status": 406,
+      "interpretation": "needs review"
+    },
+    {
+      "url": "https://matpower.org/documentation/ref-manual/legacy/functions/makeLODF.html",
+      "status": 406,
+      "interpretation": "needs review"
+    },
+    {
+      "url": "https://spark.apache.org/docs/3.5.8/api/python/reference/pyspark.sql/api/pyspark.sql.DataFrame.toPandas.html",
+      "status": 200,
+      "resolved": "https://spark.apache.org/docs/3.5.8/api/python/reference/pyspark.sql/api/pyspark.sql.DataFrame.toPandas.html"
+    },
+    {
+      "url": "https://spark.apache.org/docs/3.5.8/ml-pipeline.html",
+      "status": 200,
+      "resolved": "https://spark.apache.org/docs/3.5.8/ml-pipeline.html"
+    },
+    {
+      "url": "https://www.nerc.com/globalassets/standards/reliability-standards/tpl/tpl-001-5.1.pdf",
+      "status": 200,
+      "resolved": "https://www.nerc.com/globalassets/standards/reliability-standards/tpl/tpl-001-5.1.pdf"
+    },
+    {
+      "url": "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/zaharia",
+      "status": 200,
+      "resolved": "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/zaharia"
+    }
+  ],
+  "publisher_restricted_dois": [
+    {
+      "doi": "10.1111/ecog.02881",
+      "registration_verified": true
+    },
+    {
+      "doi": "10.1145/2382577.2382579",
+      "registration_verified": true
+    },
+    {
+      "doi": "10.1145/3287560.3287596",
+      "registration_verified": true
+    },
+    {
+      "doi": "10.1145/3458723",
+      "registration_verified": true
+    }
+  ],
+  "matpower_docs": "Both 406 responses were independently verified through the web reader at their exact official URLs.",
+  "screenshot": {
+    "source": "Prior verified V4-R2 production desktop screenshot",
+    "source_filename": "GRIDRAIL_V4_R2_LIVE_DESKTOP.png",
+    "public_path": "docs/assets/gridguard-ai-dashboard-preview.png",
+    "sha256": "7dbdbcbf4d23a350c9f76529c699a6ebc03c256ecd4b6d27816591af71791731",
+    "cropped": false,
+    "resized": false,
+    "recompressed": false,
+    "private_browser_chrome": "absent"
+  },
+  "license": "Existing MIT preserved for original software/documentation. No third-party case tables, vendored code or canonical datasets bundled.",
+  "production": "V4-R2 LIVE AND VERIFIED. V3 PRESERVED AS ROLLBACK BASELINE. No Cloudflare changes in this task.",
+  "fresh_clone": "TO BE VERIFIED AFTER LOCAL RELEASE COMMIT",
+  "github_external_verification": "PENDING AUTHENTICATION AND PUSH"
+}

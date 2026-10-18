@@ -1,0 +1,21 @@
+{
+  "report_environment": {
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "nbconvert": "7.17.2",
+    "ipykernel": "7.4.0",
+    "matplotlib": "3.11.2",
+    "pyspark": "4.0.1",
+    "PyYAML": "6.0.3"
+  },
+  "mode": "aggregate-only fresh-kernel execution",
+  "code_cells": 25,
+  "errors": 0,
+  "training_executed": false,
+  "new_final_test_scoring": false,
+  "html_exported": true,
+  "html_sha256": "7874258896d375dc913ceee0b0f93999145ffe5b060770203a016796b852cd7d",
+  "notebook_sha256": "ca51522066372ae8e3910178201f0cb274f84a742e49df3cd0fa3c4df896662b",
+  "pdf_exported": false,
+  "pdf_note": "No established reliable PDF workflow; optional PDF omitted."
+}

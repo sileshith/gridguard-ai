@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="338.4pt" viewBox="0 0 720 338.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-17T10:00:41.216477</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>GridGuard AI</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 338.4 
+L 720 338.4 
+L 720 0 
+L 0 0 
+z
+" style="fill: #fbfaf7"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start" x="26.235464" y="72.752" transform="rotate(-0 26.235464 72.752)">Row-level split: leakage risk</text>
+   </g>
+   <g id="text_2">
+    <g id="patch_2">
+     <path d="M 38.444751 122.542 
+L 71.448032 122.542 
+Q 75.048032 122.542 75.048032 118.942 
+L 75.048032 109.942 
+Q 75.048032 106.342 71.448032 106.342 
+L 38.444751 106.342 
+Q 34.844751 106.342 34.844751 109.942 
+L 34.844751 118.942 
+Q 34.844751 122.542 38.444751 122.542 
+z
+" style="fill: #0072b2"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="54.946392" y="116.779891" transform="rotate(-0 54.946392 116.779891)">S1 / O1</text>
+   </g>
+   <g id="text_3">
+    <g id="patch_3">
+     <path d="M 112.37539 122.542 
+L 145.378672 122.542 
+Q 148.978672 122.542 148.978672 118.942 
+L 148.978672 109.942 
+Q 148.978672 106.342 145.378672 106.342 
+L 112.37539 106.342 
+Q 108.77539 106.342 108.77539 109.942 
+L 108.77539 118.942 
+Q 108.77539 122.542 112.37539 122.542 
+z
+" style="fill: #d55e00"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="128.877031" y="116.779891" transform="rotate(-0 128.877031 116.779891)">S1 / O2</text>
+   </g>
+   <g id="text_4">
+    <g id="patch_4">
+     <path d="M 186.306029 122.542 
+L 219.309311 122.542 
+Q 222.909311 122.542 222.909311 118.942 
+L 222.909311 109.942 
+Q 222.909311 106.342 219.309311 106.342 
+L 186.306029 106.342 
+Q 182.706029 106.342 182.706029 109.942 
+L 182.706029 118.942 
+Q 182.706029 122.542 186.306029 122.542 
+z
+" style="fill: #a67c00"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="202.80767" y="116.779891" transform="rotate(-0 202.80767 116.779891)">S1 / O3</text>
+   </g>
+   <g id="text_5">
+    <g id="patch_5">
+     <path d="M 260.236669 122.542 
+L 293.23995 122.542 
+Q 296.83995 122.542 296.83995 118.942 
+L 296.83995 109.942 
+Q 296.83995 106.342 293.23995 106.342 
+L 260.236669 106.342 
+Q 256.636669 106.342 256.636669 109.942 
+L 256.636669 118.942 
+Q 256.636669 122.542 260.236669 122.542 
+z
+" style="fill: #0072b2"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="276.738309" y="116.779891" transform="rotate(-0 276.738309 116.779891)">S2 / O1</text>
+   </g>
+   <g id="text_6">
+    <g id="patch_6">
+     <path d="M 334.167308 122.542 
+L 367.170589 122.542 
+Q 370.770589 122.542 370.770589 118.942 
+L 370.770589 109.942 
+Q 370.770589 106.342 367.170589 106.342 
+L 334.167308 106.342 
+Q 330.567308 106.342 330.567308 109.942 
+L 330.567308 118.942 
+Q 330.567308 122.542 334.167308 122.542 
+z
+" style="fill: #d55e00"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="350.668948" y="116.779891" transform="rotate(-0 350.668948 116.779891)">S2 / O2</text>
+   </g>
+   <g id="text_7">
+    <g id="patch_7">
+     <path d="M 408.097947 122.542 
+L 441.101228 122.542 
+Q 444.701228 122.542 444.701228 118.942 
+L 444.701228 109.942 
+Q 444.701228 106.342 441.101228 106.342 
+L 408.097947 106.342 
+Q 404.497947 106.342 404.497947 109.942 
+L 404.497947 118.942 
+Q 404.497947 122.542 408.097947 122.542 
+z
+" style="fill: #a67c00"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="424.599588" y="116.779891" transform="rotate(-0 424.599588 116.779891)">S2 / O3</text>
+   </g>
+   <g id="text_8">
+    <g id="patch_8">
+     <path d="M 482.028586 122.542 
+L 515.031867 122.542 
+Q 518.631867 122.542 518.631867 118.942 
+L 518.631867 109.942 
+Q 518.631867 106.342 515.031867 106.342 
+L 482.028586 106.342 
+Q 478.428586 106.342 478.428586 109.942 
+L 478.428586 118.942 
+Q 478.428586 122.542 482.028586 122.542 
+z
+" style="fill: #0072b2"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="498.530227" y="116.779891" transform="rotate(-0 498.530227 116.779891)">S3 / O1</text>
+   </g>
+   <g id="text_9">
+    <g id="patch_9">
+     <path d="M 555.959225 122.542 
+L 588.962507 122.542 
+Q 592.562507 122.542 592.562507 118.942 
+L 592.562507 109.942 
+Q 592.562507 106.342 588.962507 106.342 
+L 555.959225 106.342 
+Q 552.359225 106.342 552.359225 109.942 
+L 552.359225 118.942 
+Q 552.359225 122.542 555.959225 122.542 
+z
+" style="fill: #d55e00"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="572.460866" y="116.779891" transform="rotate(-0 572.460866 116.779891)">S3 / O2</text>
+   </g>
+   <g id="text_10">
+    <g id="patch_10">
+     <path d="M 629.889865 122.542 
+L 662.893146 122.542 
+Q 666.493146 122.542 666.493146 118.942 
+L 666.493146 109.942 
+Q 666.493146 106.342 662.893146 106.342 
+L 629.889865 106.342 
+Q 626.289865 106.342 626.289865 109.942 
+L 626.289865 118.942 
+Q 626.289865 122.542 629.889865 122.542 
+z
+" style="fill: #a67c00"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="646.391505" y="116.779891" transform="rotate(-0 646.391505 116.779891)">S3 / O3</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start" x="26.235464" y="189.484" transform="rotate(-0 26.235464 189.484)">Scenario split: implemented</text>
+   </g>
+   <g id="text_12">
+    <g id="patch_11">
+     <path d="M 38.444751 239.274 
+L 71.448032 239.274 
+Q 75.048032 239.274 75.048032 235.674 
+L 75.048032 226.674 
+Q 75.048032 223.074 71.448032 223.074 
+L 38.444751 223.074 
+Q 34.844751 223.074 34.844751 226.674 
+L 34.844751 235.674 
+Q 34.844751 239.274 38.444751 239.274 
+z
+" style="fill: #0072b2"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="54.946392" y="233.511891" transform="rotate(-0 54.946392 233.511891)">S1 / O1</text>
+   </g>
+   <g id="text_13">
+    <g id="patch_12">
+     <path d="M 112.37539 239.274 
+L 145.378672 239.274 
+Q 148.978672 239.274 148.978672 235.674 
+L 148.978672 226.674 
+Q 148.978672 223.074 145.378672 223.074 
+L 112.37539 223.074 
+Q 108.77539 223.074 108.77539 226.674 
+L 108.77539 235.674 
+Q 108.77539 239.274 112.37539 239.274 
+z
+" style="fill: #0072b2"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="128.877031" y="233.511891" transform="rotate(-0 128.877031 233.511891)">S1 / O2</text>
+   </g>
+   <g id="text_14">
+    <g id="patch_13">
+     <path d="M 186.306029 239.274 
+L 219.309311 239.274 
+Q 222.909311 239.274 222.909311 235.674 
+L 222.909311 226.674 
+Q 222.909311 223.074 219.309311 223.074 
+L 186.306029 223.074 
+Q 182.706029 223.074 182.706029 226.674 
+L 182.706029 235.674 
+Q 182.706029 239.274 186.306029 239.274 
+z
+" style="fill: #0072b2"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="202.80767" y="233.511891" transform="rotate(-0 202.80767 233.511891)">S1 / O3</text>
+   </g>
+   <g id="text_15">
+    <g id="patch_14">
+     <path d="M 260.236669 239.274 
+L 293.23995 239.274 
+Q 296.83995 239.274 296.83995 235.674 
+L 296.83995 226.674 
+Q 296.83995 223.074 293.23995 223.074 
+L 260.236669 223.074 
+Q 256.636669 223.074 256.636669 226.674 
+L 256.636669 235.674 
+Q 256.636669 239.274 260.236669 239.274 
+z
+" style="fill: #d55e00"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="276.738309" y="233.511891" transform="rotate(-0 276.738309 233.511891)">S2 / O1</text>
+   </g>
+   <g id="text_16">
+    <g id="patch_15">
+     <path d="M 334.167308 239.274 
+L 367.170589 239.274 
+Q 370.770589 239.274 370.770589 235.674 
+L 370.770589 226.674 
+Q 370.770589 223.074 367.170589 223.074 
+L 334.167308 223.074 
+Q 330.567308 223.074 330.567308 226.674 
+L 330.567308 235.674 
+Q 330.567308 239.274 334.167308 239.274 
+z
+" style="fill: #d55e00"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="350.668948" y="233.511891" transform="rotate(-0 350.668948 233.511891)">S2 / O2</text>
+   </g>
+   <g id="text_17">
+    <g id="patch_16">
+     <path d="M 408.097947 239.274 
+L 441.101228 239.274 
+Q 444.701228 239.274 444.701228 235.674 
+L 444.701228 226.674 
+Q 444.701228 223.074 441.101228 223.074 
+L 408.097947 223.074 
+Q 404.497947 223.074 404.497947 226.674 
+L 404.497947 235.674 
+Q 404.497947 239.274 408.097947 239.274 
+z
+" style="fill: #d55e00"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="424.599588" y="233.511891" transform="rotate(-0 424.599588 233.511891)">S2 / O3</text>
+   </g>
+   <g id="text_18">
+    <g id="patch_17">
+     <path d="M 482.028586 239.274 
+L 515.031867 239.274 
+Q 518.631867 239.274 518.631867 235.674 
+L 518.631867 226.674 
+Q 518.631867 223.074 515.031867 223.074 
+L 482.028586 223.074 
+Q 478.428586 223.074 478.428586 226.674 
+L 478.428586 235.674 
+Q 478.428586 239.274 482.028586 239.274 
+z
+" style="fill: #a67c00"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="498.530227" y="233.511891" transform="rotate(-0 498.530227 233.511891)">S3 / O1</text>
+   </g>
+   <g id="text_19">
+    <g id="patch_18">
+     <path d="M 555.959225 239.274 
+L 588.962507 239.274 
+Q 592.562507 239.274 592.562507 235.674 
+L 592.562507 226.674 
+Q 592.562507 223.074 588.962507 223.074 
+L 555.959225 223.074 
+Q 552.359225 223.074 552.359225 226.674 
+L 552.359225 235.674 
+Q 552.359225 239.274 555.959225 239.274 
+z
+" style="fill: #a67c00"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="572.460866" y="233.511891" transform="rotate(-0 572.460866 233.511891)">S3 / O2</text>
+   </g>
+   <g id="text_20">
+    <g id="patch_19">
+     <path d="M 629.889865 239.274 
+L 662.893146 239.274 
+Q 666.493146 239.274 666.493146 235.674 
+L 666.493146 226.674 
+Q 666.493146 223.074 662.893146 223.074 
+L 629.889865 223.074 
+Q 626.289865 223.074 626.289865 226.674 
+L 626.289865 235.674 
+Q 626.289865 239.274 629.889865 239.274 
+z
+" style="fill: #a67c00"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="646.391505" y="233.511891" transform="rotate(-0 646.391505 233.511891)">S3 / O3</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start" x="33.413196" y="281.202" transform="rotate(-0 33.413196 281.202)">Color encodes partition: blue training | orange validation | gold test. S/O are illustrative IDs.</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle" x="360" y="23.4" transform="rotate(-0 360 23.4)">Keep every outage from a scenario in one partition</text>
+   </g>
+  </g>
+  <g id="text_23">
+   <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #475569" x="14.4" y="333.324" transform="rotate(-0 14.4 333.324)">Design illustration, not observed records. Actual split assertions are implemented in gridguard.splitting.</text>
+  </g>
+ </g>
+</svg>

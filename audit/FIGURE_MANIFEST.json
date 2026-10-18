@@ -1,0 +1,52 @@
+{
+  "figures": [
+    {
+      "name": "screening_budget",
+      "source": "Enhanced 50K validation: 7,651 rows, 872 positives. Four measured budgets; lines guide the eye.",
+      "sha256": "c56ecb963c70e59f82e3b0cdd8e16d6d316429e7640599ef345bd561ef3bb453"
+    },
+    {
+      "name": "class_balance",
+      "source": "Reproduced canonical aggregate validation. Labels describe a synthetic retained population.",
+      "sha256": "3a16e9239e42f4ce7cb54c488d6cc1f7c0a4a4da36ab49acbe40e1ded6e71725"
+    },
+    {
+      "name": "model_comparison",
+      "source": "Reproduced 50K validation; same split/features. Baseline defaults, not equal tuning budgets.",
+      "sha256": "cac72f6c2537d3a3b08b9bf61e4495023f72a46099393b9586ad9664db5f1185"
+    },
+    {
+      "name": "precision_recall",
+      "source": "Enhanced 50K validation, thresholds 0.05\u20130.90. Sampled trade-off, not a full PR curve or AUC reconstruction.",
+      "sha256": "6e85b2345b935b96b7c717edbc0a51d0e58eed77b8a3dd0c0846c6878b37ddfe"
+    },
+    {
+      "name": "confusion_matrix",
+      "source": "Prior enhanced test receipt: 7,522 rows. Historical test prevalence was inspected; not a pristine holdout.",
+      "sha256": "9e1eb74ac536f4ca2c0ac4bb2f943ed58294dd05c7822c384cd7a7e340f27b35"
+    },
+    {
+      "name": "threshold_tradeoff",
+      "source": "Enhanced validation only. Max-F1 selection chose 0.4 on this finite grid, not a safety-cost optimum.",
+      "sha256": "9f6a200e99ad2b107bb87220279256e1f31c714db6506f2f0e9b1a2f9b00c924"
+    },
+    {
+      "name": "scaling_results",
+      "source": "Reproduced local runs. Different populations; no causal data-size benefit, runtime speedup or cloud claim.",
+      "sha256": "eaa94443fa6964c8f7d3e440af2ac6ccbcf298987f43a09cd3483765f1451a63"
+    },
+    {
+      "name": "grouped_split",
+      "source": "Design illustration, not observed records. Actual split assertions are implemented in gridguard.splitting.",
+      "sha256": "de6ef0729a7facdb36575ec1eecc279659a6a43d0614dd144fbda9fddfb56ed7"
+    },
+    {
+      "name": "publication_architecture",
+      "source": "Conceptual project architecture. No utility topology or private records. GridRail receives documentation only.",
+      "sha256": "0bde54df084a3526758104d29b226550780befab31342b5bd32311b37a1f4241"
+    }
+  ],
+  "full_pr_curve_available": false,
+  "feature_importance_available": false,
+  "notes": "Sampled threshold points replace unavailable score-level PR curve; feature importance omitted. No new training or test scoring."
+}

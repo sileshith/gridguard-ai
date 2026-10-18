@@ -1,0 +1,6 @@
+data_env: GRIDGUARD_BIG_DATA
+data_filename: cis415_grid_big_1000000.csv
+output: results/local/big
+seed: 4152026
+expected_rows: 1000000
+master: local[2]

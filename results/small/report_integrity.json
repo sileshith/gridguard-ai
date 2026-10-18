@@ -1,0 +1,106 @@
+{
+  "rows": 50000,
+  "positive_count": 5732,
+  "prevalence": 0.11464,
+  "unique_scenarios": 5650,
+  "versions": [
+    "ieee118_dc_lodf_v1"
+  ],
+  "sha256": "0647a744810f26691d2f46ee176a2d167c1beb1ce88a076be69a69b445226ec9",
+  "column_count": 15,
+  "columns": [
+    "scenario_id",
+    "outage_line_id",
+    "random_seed",
+    "dataset_version",
+    "islanding_flag",
+    "Total_Demand",
+    "Renewable_Generation_Pct",
+    "Hour_of_Day",
+    "Pre_Outage_Line_Loading",
+    "Line_Thermal_Rating",
+    "Edge_Betweenness",
+    "Degree_From_Bus",
+    "Degree_To_Bus",
+    "Line_Outage_Sensitivity",
+    "Post_Outage_Violation"
+  ],
+  "missing_cells": 0,
+  "missing_by_column": {
+    "scenario_id": 0,
+    "outage_line_id": 0,
+    "random_seed": 0,
+    "dataset_version": 0,
+    "islanding_flag": 0,
+    "Total_Demand": 0,
+    "Renewable_Generation_Pct": 0,
+    "Hour_of_Day": 0,
+    "Pre_Outage_Line_Loading": 0,
+    "Line_Thermal_Rating": 0,
+    "Edge_Betweenness": 0,
+    "Degree_From_Bus": 0,
+    "Degree_To_Bus": 0,
+    "Line_Outage_Sensitivity": 0,
+    "Post_Outage_Violation": 0
+  },
+  "predictor_ranges": {
+    "Total_Demand": [
+      2713.339507,
+      5164.698017
+    ],
+    "Renewable_Generation_Pct": [
+      5.0,
+      47.700535
+    ],
+    "Hour_of_Day": [
+      0.0,
+      23.0
+    ],
+    "Pre_Outage_Line_Loading": [
+      0.001711,
+      99.23382
+    ],
+    "Line_Thermal_Rating": [
+      55.0,
+      441.821245
+    ],
+    "Edge_Betweenness": [
+      0.000579,
+      0.257444
+    ],
+    "Degree_From_Bus": [
+      2.0,
+      9.0
+    ],
+    "Degree_To_Bus": [
+      2.0,
+      9.0
+    ],
+    "Line_Outage_Sensitivity": [
+      0.265902,
+      1.0
+    ]
+  },
+  "duplicate_scenario_outage_pairs": 0,
+  "target_validity": "binary 0/1",
+  "metadata_excluded": [
+    "scenario_id",
+    "outage_line_id",
+    "islanding_flag",
+    "random_seed",
+    "dataset_version"
+  ],
+  "predictors": [
+    "Total_Demand",
+    "Renewable_Generation_Pct",
+    "Hour_of_Day",
+    "Pre_Outage_Line_Loading",
+    "Line_Thermal_Rating",
+    "Edge_Betweenness",
+    "Degree_From_Bus",
+    "Degree_To_Bus",
+    "Line_Outage_Sensitivity"
+  ],
+  "evidence_state": "REPRODUCED",
+  "scope": "New read-only 50K integrity audit, no training or scoring; ranges are benchmark summaries, not operational bounds."
+}

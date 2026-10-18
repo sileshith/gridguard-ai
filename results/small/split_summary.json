@@ -1,0 +1,20 @@
+{
+  "train": {
+    "rows": 34827,
+    "positive_count": 4014,
+    "unique_scenarios": 3934,
+    "prevalence": 0.11525540528899991
+  },
+  "validation": {
+    "rows": 7651,
+    "positive_count": 872,
+    "unique_scenarios": 865,
+    "prevalence": 0.11397202980002615
+  },
+  "test": {
+    "rows": 7522,
+    "positive_count": 846,
+    "unique_scenarios": 851,
+    "prevalence": 0.11247008774262164
+  }
+}

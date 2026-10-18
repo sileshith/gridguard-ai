@@ -1,0 +1,93 @@
+{
+  "provenance": {
+    "data_sha256": "66d3e763848cb7fa07867dd83587b1125b53366df6dd1af0dd54b7739e0c8aa6",
+    "validation": {
+      "rows": 153105,
+      "positive_count": 17739,
+      "unique_scenarios": 865,
+      "prevalence": 0.11586166356422063
+    },
+    "split_seed": 4152026,
+    "split_method": "sorted scenario IDs, randomSplit 70/30 then 50/50",
+    "spark": "4.0.1",
+    "python": "3.11.5",
+    "java": "21.0.1",
+    "model_content_sha256": "90930b358852484762cf6b63ee41f3028bb19c03fb7b3a5ed80cf58908e7429a",
+    "test_evaluated": false,
+    "driver_memory_config": "not explicitly configured",
+    "jvm_max_heap_bytes": 1073741824,
+    "bootstrap_seed": 4152026,
+    "resamples": 1000,
+    "bootstrap_unit": "operating scenario"
+  },
+  "status": "complete",
+  "resamples": 1000,
+  "valid_resamples": 1000,
+  "bootstrap_seed": 4152026,
+  "bootstrap_unit": "operating scenario",
+  "validation_scenarios": 865,
+  "validation_rows": 153105,
+  "point_estimates": {
+    "gbt_capture_10": 0.7892214893736964,
+    "gbt_capture_20": 0.950673656914144,
+    "gbt_mean_scenario_recall_20": 0.9380100595082792,
+    "baseline_capture_10": 0.5433226224702633,
+    "baseline_capture_20": 0.7877557923220023,
+    "baseline_mean_scenario_recall_20": 0.7938763412828351,
+    "gap_capture_10": 0.2458988669034331,
+    "gap_capture_20": 0.16291786459214164,
+    "gap_mean_scenario_recall_20": 0.14413371822544407
+  },
+  "percentile_95_intervals": {
+    "gbt_capture_10": {
+      "lower": 0.7709240681100402,
+      "upper": 0.8053169574441567
+    },
+    "gbt_capture_20": {
+      "lower": 0.9428698444726595,
+      "upper": 0.95641166365295
+    },
+    "gbt_mean_scenario_recall_20": {
+      "lower": 0.9316975467107903,
+      "upper": 0.9435920273867463
+    },
+    "baseline_capture_10": {
+      "lower": 0.5358333768312122,
+      "upper": 0.5494395038969051
+    },
+    "baseline_capture_20": {
+      "lower": 0.7803460015161635,
+      "upper": 0.7952936222947714
+    },
+    "baseline_mean_scenario_recall_20": {
+      "lower": 0.7869253937548157,
+      "upper": 0.8009825492378974
+    },
+    "gap_capture_10": {
+      "lower": 0.2322818252158332,
+      "upper": 0.2596053443071483
+    },
+    "gap_capture_20": {
+      "lower": 0.157462585584919,
+      "upper": 0.16721467660476705
+    },
+    "gap_mean_scenario_recall_20": {
+      "lower": 0.13849906407360413,
+      "upper": 0.14965030917695263
+    }
+  },
+  "method": "Paired scenario-cluster bootstrap. Sample n scenarios with replacement using multinomial multiplicities. Every outage row inherits its scenario multiplicity. Pooled budgets use ceil(resampled row count * budget). Repeated boundary rows may be partly selected. Per-scenario recall uses ceil(original scenario row count * 0.2), with multiplicity-weighted means over positive scenarios.",
+  "interval_method": "Percentile 95%, NumPy linear quantiles at 0.025 and 0.975",
+  "selection_limit": "Fixed existing model and validation-selected loading baseline. Intervals do not correct selection optimism or calibration overlap.",
+  "pr_auc": {
+    "included": false,
+    "reason": "Scenario-bootstrap uncertainty is reported for capture and per-scenario recall. PR-AUC uncertainty was omitted because the bounded Python implementation did not exactly reproduce Spark's areaUnderPR definition.",
+    "equivalence_status": "Not established. No alternative PR-AUC estimator or interval is computed.",
+    "reference_definition": "Spark areaUnderPR, numBins=1000"
+  },
+  "test_evaluated": false,
+  "point_estimate_check": {
+    "passed": true,
+    "absolute_tolerance": 1e-10
+  }
+}
