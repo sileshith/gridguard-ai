@@ -1,0 +1,41 @@
+{
+  "evidence_state": "Derived from previously recorded validation aggregates. No new scoring.",
+  "validation": {
+    "rows": 153105,
+    "positives": 17739,
+    "scenarios": 865
+  },
+  "profiles": [
+    {
+      "feature": "Total_Demand",
+      "unit": "MW",
+      "non_violation_mean": 3759.778801794757,
+      "violation_mean": 3970.408021346975,
+      "difference": 210.62921955221827
+    },
+    {
+      "feature": "Renewable_Generation_Pct",
+      "unit": "%",
+      "non_violation_mean": 18.44010649318259,
+      "violation_mean": 19.800192377755266,
+      "difference": 1.3600858845726762
+    },
+    {
+      "feature": "Pre_Outage_Line_Loading",
+      "unit": "benchmark %",
+      "non_violation_mean": 28.235379558870026,
+      "violation_mean": 63.539202746659974,
+      "difference": 35.303823187789945
+    }
+  ],
+  "source": "results/review_validation_1m/validation_review.json",
+  "source_sha256": "213b26cb532d1f93c8eda80d22ee2bfc3db5180f4316a16e44081441eea9fabc",
+  "segmentation_status": "PENDING_VALIDATION_SCORE_ACCESS",
+  "test_evaluated": false,
+  "limitations": [
+    "Class-conditional means do not identify segment prevalence, capture or causal effects.",
+    "No stored validation candidate scores were located in the inspected repositories and private verification area.",
+    "Hour is circular. Arithmetic mean hour is intentionally not interpreted."
+  ],
+  "validation_prevalence": 0.11586166356422063
+}

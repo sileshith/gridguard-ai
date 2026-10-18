@@ -22,6 +22,12 @@ DC power flow and line-outage distribution factors provide controlled known-trut
 
 Synthetic scenarios → DC/LODF modeled labels → scenario-grouped split → PySpark ML pipeline → LR/RF/GBT comparison → review-budget evaluation → GridGuard dashboard → GridRail project guide.
 
+## Why This Matters to the Energy Sector
+
+Power-system reliability disruptions can carry substantial economic consequences, while demand and transmission constraints influence electricity-market conditions. [Berkeley Lab](https://eta.lbl.gov/publications/improving-estimated-cost-sustained) and [DOE](https://www.energy.gov/oe/articles/blackout-2003-blackout-final-implementation-report) provide broader reliability-cost context. [EIA](https://www.eia.gov/TodayinEnergy/detail.php?id=3150) explains the relationship between transmission constraints and locational prices.
+
+GridGuard addresses a narrower question: when review capacity is limited, which modeled contingencies should be prioritized first? The current benchmark measures modeled violation capture, not financial savings. A planned extension will examine demand, renewable output, congestion, wholesale-price context and estimated consequence. See [energy-sector decision relevance](docs/ENERGY_BUSINESS_EXTENSION.md) and the [business-question matrix](docs/ENERGY_BUSINESS_QUESTION_MATRIX.md).
+
 ## Tech Stack
 
 | Area | Tools and methods |
@@ -86,6 +92,17 @@ RF's fresh Dataproc PR-AUC falls within the 15-run local seed-and-partition rang
 The strongest tested simple baseline is `Pre_Outage_Line_Loading`. The paired scenario-bootstrap interval for the gain is approximately +15.75 to +16.72 percentage points, based on 1,000 resamples. **Intervals do not correct selection optimism or calibration overlap.** Baseline selection used these validation rows. GBT still missed **875 modeled violations** at the 20% pooled review budget.
 
 Pooled ranking and within-scenario review are distinct policies. At 20% within-scenario review, mean recall was 93.80% for GBT versus 79.39% for loading. These estimates describe this synthetic benchmark, not measured engineering time, financial savings or real-grid benefit.
+
+## Current Scope and Upcoming Work
+
+| Current verified work | Upcoming energy-business extension |
+|---|---|
+| Synthetic IEEE 118-bus DC benchmark with 1M scenario-outage observations | Recover authenticated validation scores for demand-decile, renewable-share, hour-of-day miss and high-demand/high-loading analysis |
+| Scenario-grouped LR/RF/GBT validation, PR-AUC, review-budget analysis, strongest tested simple baseline and paired scenario bootstrap | CAISO/EIA market context, congestion and electricity-price integration through defensible scenario alignment |
+| GridGuard dashboard, GridRail private-workspace core validation and invitation access, public GitHub release and reproducibility audit | Estimated-consequence proxies, external/real-system validation and AC/security-analysis comparison |
+| Frozen policy with final test unevaluated | Final-test evaluation only after separate explicit written authorization |
+
+**PROPOSED / NOT YET MEASURED:** Economic Exposure Capture@k, Cost-Weighted Recall@k, Risk-Weighted Miss Rate, Economic Exposure Missed@k, Congestion-Weighted Capture@k and High-Price-Hour Capture@k. No real CAISO prices will be attached to existing synthetic rows without a defensible temporal and scenario mapping. See the [prioritized roadmap](docs/UPCOMING_WORK.md).
 
 ## Reproducibility
 
