@@ -1,5 +1,5 @@
 {
-  "publication_status": "PREPARED LOCALLY, PUBLICATION REQUIRES AUTHENTICATED OWNER VERIFICATION",
+  "publication_status": "READY BUT BLOCKED: GitHub CLI has no authenticated account",
   "target": "https://github.com/sileshith/gridguard-ai",
   "privacy": {
     "scan": "scripts/audit_local.py plus allowlist, binary-image visual review and scientific-byte comparison",
@@ -204,6 +204,21 @@
   },
   "license": "Existing MIT preserved for original software/documentation. No third-party case tables, vendored code or canonical datasets bundled.",
   "production": "V4-R2 LIVE AND VERIFIED. V3 PRESERVED AS ROLLBACK BASELINE. No Cloudflare changes in this task.",
-  "fresh_clone": "TO BE VERIFIED AFTER LOCAL RELEASE COMMIT",
-  "github_external_verification": "PENDING AUTHENTICATION AND PUSH"
+  "fresh_clone": {
+    "status": "PASS",
+    "source_commit": "2ebac098db878dd84e9df1bbf3f236902a5b16a6",
+    "method": "Actual git clone with --no-hardlinks into an independent temporary checkout",
+    "pytest_passed": 91,
+    "pytest_failed": 0,
+    "report_code_cells": 25,
+    "report_errors": 0,
+    "report_publication_validation": "PASS",
+    "dashboard_build": "PASS",
+    "served_dashboard_assets_matching_production": 8,
+    "privacy_scan_findings": 0,
+    "dependencies": "Existing verified local Python/Java environments were reused. A from-scratch dependency installation, Docker run and hosted GitHub Actions execution were not performed.",
+    "canonical_data_accessed": false,
+    "held_out_test_scored": false
+  },
+  "github_external_verification": "NOT RUN, no repository created or pushed"
 }
