@@ -8,7 +8,7 @@ GridGuard AI studies whether a scalable machine-learning workflow can prioritize
 
 ![GridGuard AI dashboard preview](docs/assets/gridguard-ai-dashboard-preview.png)
 
-> **Live dashboard:** GridGuard AI presents leakage-aware validation, review-budget analysis, reproducibility evidence, and the invitation-based GridRail AI project guide.
+> **Live dashboard:** GridGuard AI presents leakage-aware validation, review-budget analysis, reproducibility evidence, and the GridRail AI project guide with workspace-eligible access.
 
 ## Start Here
 
@@ -17,7 +17,7 @@ GridGuard AI studies whether a scalable machine-learning workflow can prioritize
 - [**LinkedIn Walkthrough**](https://lnkd.in/p/gkxwd35u): 12-page visual project walkthrough
 - [**Facebook Project Post**](https://www.facebook.com/sileshith/posts/pfbid0xiBU4DaSKEwdF3noXDxwWpjgbG7yMmMPg9rAadoEy7ezXNg6pq6AXcY99JZtXVy5l): business-oriented project introduction
 - [**Portfolio Case Study**](https://hirpadata.com): recruiter-oriented presentation and related work
-- [**Request GridRail AI Access**](https://docs.google.com/forms/d/e/1FAIpQLSddC199Z7tKwWrrFcPfUeZEiMqhM-7-hKzAlmLFpLpcesjSRA/viewform): invitation-based conversational project guide
+- [**Request GridRail AI Access**](https://docs.google.com/forms/d/e/1FAIpQLSddC199Z7tKwWrrFcPfUeZEiMqhM-7-hKzAlmLFpLpcesjSRA/viewform): workspace-eligible access requests and expressions of interest
 
 ## What GridGuard AI Does
 
@@ -141,7 +141,7 @@ The report build updates derived notebook outputs and HTML only. Data validation
 
 ## GridRail AI
 
-GridRail AI is the conversational project guide for GridGuard AI. The Custom GPT has been created and core manual validation completed in a private ASU workspace. Public GPT sharing is disabled by the workspace. Visitors may [request invitation-based access](https://docs.google.com/forms/d/e/1FAIpQLSddC199Z7tKwWrrFcPfUeZEiMqhM-7-hKzAlmLFpLpcesjSRA/viewform). Submitting a request does not guarantee access. The dashboard copies starter questions and links to the form. It does not generate AI answers or connect to private data.
+GridRail AI is the conversational project guide for GridGuard AI. It has completed core manual validation in a private ASU-managed ChatGPT workspace. Direct GPT sharing is currently limited to users recognized by that workspace. Other visitors may [submit an access request](https://docs.google.com/forms/d/e/1FAIpQLSddC199Z7tKwWrrFcPfUeZEiMqhM-7-hKzAlmLFpLpcesjSRA/viewform) to express interest, but submission does not guarantee access. The private canonical dataset is not exposed. The dashboard copies starter questions and links to the form. It does not generate AI answers or connect to private data.
 
 GridRail AI uses a dedicated navy, cyan and amber visual identity based on an abstract network with a highlighted screening path. The banner is a branding element for the project guide and does not represent the actual IEEE 118-bus topology or experimental evidence.
 

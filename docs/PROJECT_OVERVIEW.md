@@ -100,11 +100,7 @@ These are **upcoming research directions, not current measured results**.
 
 ## GridRail AI
 
-GridRail AI is the conversational project guide for GridGuard AI. It explains methodology, validation evidence, leakage prevention, review-budget analysis, reproducibility, limitations, and future work using sanitized project documentation.
-
-The Custom GPT has completed core manual validation in a private ASU workspace. Public GPT sharing is disabled by the workspace, so access is currently invitation-based.
-
-GridRail does not expose the private canonical dataset.
+GridRail AI is the conversational project guide for GridGuard AI. It has completed core manual validation in a private ASU-managed ChatGPT workspace. Direct GPT sharing is currently limited to users recognized by that workspace. Other visitors may [submit an access request](https://docs.google.com/forms/d/e/1FAIpQLSddC199Z7tKwWrrFcPfUeZEiMqhM-7-hKzAlmLFpLpcesjSRA/viewform) to express interest, but submission does not guarantee access. The private canonical dataset is not exposed. It explains methodology, validation evidence, leakage prevention, review-budget analysis, reproducibility, limitations and future work using sanitized project documentation. Public GPT sharing is disabled by the ASU-managed workspace. External accounts are not currently directly shareable under this policy.
 
 ## Reproducibility Boundary
 
@@ -124,7 +120,7 @@ The original executable physics/data generator was not recovered. Therefore:
 | **Portfolio** | Recruiter-oriented flagship case study | [Open portfolio](https://hirpadata.com) |
 | **LinkedIn Walkthrough** | 12-page visual project walkthrough | [View walkthrough](https://lnkd.in/p/gkxwd35u) |
 | **Facebook Project Post** | Broader business-oriented project introduction | [View Facebook post](https://www.facebook.com/sileshith/posts/pfbid0xiBU4DaSKEwdF3noXDxwWpjgbG7yMmMPg9rAadoEy7ezXNg6pq6AXcY99JZtXVy5l) |
-| **GridRail AI Access** | Invitation request for the conversational project guide | [Request invitation](https://docs.google.com/forms/d/e/1FAIpQLSddC199Z7tKwWrrFcPfUeZEiMqhM-7-hKzAlmLFpLpcesjSRA/viewform) |
+| **GridRail AI Access** | Workspace-eligible access request or expression of interest | [Request invitation](https://docs.google.com/forms/d/e/1FAIpQLSddC199Z7tKwWrrFcPfUeZEiMqhM-7-hKzAlmLFpLpcesjSRA/viewform) |
 
 ## Current Governance
 
@@ -139,5 +135,5 @@ The held-out 1M final-test population has not been scored. No held-out final-tes
 - **GridGuard on hirpadata.com:** live as the first featured project
 - **LinkedIn walkthrough:** published
 - **Facebook project post:** published
-- **GridRail AI:** invitation-based
+- **GridRail AI:** direct access limited to workspace-eligible users, public interest form active
 - **Final test:** unevaluated
