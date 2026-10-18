@@ -10,6 +10,15 @@ GridGuard AI studies whether a scalable machine-learning workflow can prioritize
 
 > **Live dashboard:** GridGuard AI presents leakage-aware validation, review-budget analysis, reproducibility evidence, and the invitation-based GridRail AI project guide.
 
+## Start Here
+
+- [**Project Overview**](docs/PROJECT_OVERVIEW.md): high-level summary of what was built, validated, deployed, published, and what comes next
+- [**Live Dashboard**](https://gridguard-ai.pages.dev): interactive validation evidence and GridRail entry point
+- [**LinkedIn Walkthrough**](https://lnkd.in/p/gkxwd35u): 12-page visual project walkthrough
+- [**Facebook Project Post**](https://www.facebook.com/sileshith/posts/pfbid0xiBU4DaSKEwdF3noXDxwWpjgbG7yMmMPg9rAadoEy7ezXNg6pq6AXcY99JZtXVy5l): business-oriented project introduction
+- [**Portfolio Case Study**](https://hirpadata.com): recruiter-oriented presentation and related work
+- [**Request GridRail AI Access**](https://docs.google.com/forms/d/e/1FAIpQLSddC199Z7tKwWrrFcPfUeZEiMqhM-7-hKzAlmLFpLpcesjSRA/viewform): invitation-based conversational project guide
+
 ## What GridGuard AI Does
 
 Each observation pairs an operating scenario with a candidate transmission-line outage. The binary target, `Post_Outage_Violation`, identifies a modeled thermal-limit violation. A learned ranking determines which cases enter a fixed review budget first.
